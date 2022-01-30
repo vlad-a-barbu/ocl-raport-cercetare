@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1643548097 "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" "Raport.pdf" "Raport" 1643548098
+["pdflatex"] 1643553642 "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" "Raport.pdf" "Raport" 1643553643
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1643541308 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1643541361 22504 9bade0320142dee9ceeee01c6e668122 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1643541362 25420 ce20f9f388889339f00f526c33cb4312 ""
@@ -8,6 +8,7 @@
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk" 1643541360 21356 835f0b3c8794993b113a0d726c05a43a ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1643541319 23808 5d1cc39170716d5ec30ddcb4c0fb73a5 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1643541315 28440 b44a59e19d08324a734315ed4f7f6517 ""
+  "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1643539965 11548 28b2d24971a37a1e17bbc45ee4b307c1 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643539198 9769967 4a97cb461469a48c7e3fa47e194a7e25 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx0900.tfm" 993061954 3200 f959f56c26f697d341ba38dba18fe1f8 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993061956 3200 328792ff19833a39406f06fa0555a6dc ""
@@ -18,6 +19,7 @@
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
+  "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -165,9 +167,10 @@
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1641300864 5594 be2b9cd9ef9fd98fdd85c0156600daf9 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1641300864 44107 6f2f3317a642c086712536af0abfcbd8 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "Raport.aux" 1643548098 236 160fbe742ba30b2414b65294bd6ad98e "pdflatex"
-  "Raport.tex" 1643548095 3322 a9f17a94f809bee0913264606470a621 ""
-  "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" 1643548095 3322 a9f17a94f809bee0913264606470a621 ""
+  "Raport.aux" 1643553643 526 087bcedb7b314e72525cdefd4fc65a61 "pdflatex"
+  "Raport.tex" 1643553642 5276 096898c131d2aa56a7c218f83c807c93 ""
+  "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" 1643553642 5276 096898c131d2aa56a7c218f83c807c93 ""
+  "images//componente.png" 1643552790 28201 43074b29b2450fa44eaebedc115c8220 ""
   (generated)
   "Raport.aux"
   "Raport.log"

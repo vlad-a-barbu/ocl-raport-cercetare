@@ -7,6 +7,8 @@ calculator,calc,mathtools,empheq,latexsym}
 \usepackage{subfig,epsfig,tikz,float}
 \usepackage{booktabs,multicol,multirow,tabularx,array}
 \usepackage{natbib}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
 \textwidth 13.5cm
@@ -82,7 +84,39 @@ caz particular specific domeniului de interes al aplicatiei concrete.
 
 \newpage
 
-\> {\bf Componentele principale ale unui sistem de recunoastere si clasificare a formelor} sunt:
+\section{Descrierea unui sistem de recunoastere}\label{sec:2}
+
+\> Un sistem robust si eficient de recunoastere a formelor va oferi rezultate corecte, predictibile
+urmand o inlantuire de proceduri de transformare, prelucrare, extractie si clasificare.
+Componentele principale ale unui sistem de recunoastere si clasificare a formelor sunt urmatoarele:
+
+\begin{itemize}
+    \item {\bf Componenta de preprocesare} - cu ajutorul acestei componente se vor normaliza datele de intrare
+	(mediul de provenienta al acestora fiind necunoscut, stabilirea unui standard este necesara)
+	si se vor evidentia obiectele de interes prin eliminarea impuritatilor
+	\item {\bf Selectorul de obiecte de interes} - in cadrul acestei etape, imaginea va fi parcursa
+	si redusa la o multime de entitati de interes (structura observabilelor va fi definita
+	prin intermediul acestei componente, urmand ca aceasta sa fie definitia standardului de metadate
+	folosit de-a lungul procesului de recunoastere)
+    \item {\bf Selectorul de atribute semnificative} - cu ajutorul acestuia, vom putea identifica
+    factorii cantitativi si calitativi pe care un anumit observabil ii respecta (acesti factori trebuie sa fie predefiniti
+	cu ajutorul unor descriptori relevanti domeniului de interes al aplicatiei)
+    \item {\bf Componenta de masurare a atributelor} - responsabilitatea acestei componente este aceea de
+    a calcula "importanta" atributelor asociate fiecarui observabil prin invocarea unui set
+	predefinit de metrici si metode discriminative relevante pentru fiecare context de identificare, urmata
+	de agregarea rezultatelor obtinute
+    \item {\bf Clasificatorul} - etapa finala a procesului de recunoastere este reprezentata de
+    efectuarea unei alegeri prin compararea masuratorilor efectuate in pasii anteriori pentru fiecare clasa
+	identificabila predefinita
+\end{itemize}
+
+\includegraphics[scale=0.5]{componente}
+
+
+\newpage
+
+\section{Componenta de preprocesare}\label{sec:3}
+
 
 
 \end{document}

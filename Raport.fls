@@ -744,6 +744,7 @@ INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT .\Raport.aux
 INPUT Raport.aux
 INPUT Raport.aux
@@ -820,7 +821,16 @@ INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm144
 INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 OUTPUT Raport.pdf
 INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\vlada\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\images\\componente.png
+INPUT images\\componente.png
+INPUT .\images\\componente.png
+INPUT .\images\\componente.png
+INPUT .\images\\componente.png
+INPUT .\images\\componente.png
 INPUT Raport.aux
+INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\vlada\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
