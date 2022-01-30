@@ -117,6 +117,60 @@ Componentele principale ale unui sistem de recunoastere si clasificare a formelo
 
 \section{Componenta de preprocesare}\label{sec:3}
 
+\subsection{Reprezentarea unei imagini digitale}
+
+\> Din punct de vedere matematic, o imagine poate fi reprezentata sub forma unei
+functii de doua variabile:
+
+\begin{itemize}
+	\item In cazul imaginilor formate doar din tonuri de gri (i.e. Grayscale),
+	valorile functiei reprezinta luminanta pixelilor
+	
+	\begin{equation}\label{eq:1}
+		f(x,y) : R^2 -> R
+	\end{equation}
+
+	\item In cazul imaginilor color, valorile reprezinta un vector de 3 elemente,
+componente ale spatiului de culori ales (un exemplu ar fi spatiul de culori RGB:
+unde R - red, G - green, B - blue)
+
+	\begin{equation}\label{eq:2}
+		f(x,y) : R^2 -> R^3
+	\end{equation}
+
+\end{itemize}
+
+
+\> Inainte de a putea prelucra o imagine, aceasta va trebui discretizata din punct
+de vedere spatial. Procesul aferent discretizarii spatiale a
+coordonatelor (i.e. {\it esantionare}), descrie un mod de aproximare a unei imagini continue
+de tipul f(x,y), cu o matrice 2-dimensionala de tipul MxN, unde M reprezinta numarul de randuri,
+iar N reprezinta numarul de coloane de pixeli.
+
+\begin{equation}\label{eq:3}
+	f(x,y) = p_{x,y}
+\end{equation}
+
+\[
+\begin{bmatrix}
+    p_{0,0}       & p_{0,1} & p_{0,2} & \dots & p_{0,m-1} \\
+    p_{1,0}       & p_{1,1} & p_{2,2} & \dots & p_{1,m-1} \\
+    \hdotsfor{5} \\
+    p_{n-1,0}       & p_{n-1,1} & p_{n-1,2} & \dots & p_{n-1,m-1}
+\end{bmatrix}
+\]
+
+\> Trebuie sa tinem cont de faptul ca discretizarea unei imagini este un proces insotit de zgomot - {\it eroare de cuantizare}.
+Una dintre cele mai folosite metode de cuantizare este cuantizarea uniforma - intervalele
+functiei de cuantizare sunt egale. \\
+
+\> {\bf O imagine digitala} este reprezentata de o structura de date bidimensionala, unde un
+element (x, y) al acesteia poarta numele de pixel.
+
+\newpage
+
+\subsection{Tehnici de preprocesare}
+
 
 
 \end{document}
