@@ -140,7 +140,6 @@ unde R - red, G - green, B - blue)
 
 \end{itemize}
 
-
 \> Inainte de a putea prelucra o imagine, aceasta va trebui discretizata din punct
 de vedere spatial. Procesul aferent discretizarii spatiale a
 coordonatelor (i.e. {\it esantionare}), descrie un mod de aproximare a unei imagini continue
@@ -171,6 +170,33 @@ element (x, y) al acesteia poarta numele de pixel.
 
 \subsection{Tehnici de preprocesare}
 
+\> Profesorul Universitatii Stony Brook din New York, Theodosios Pavlidis, 
+a propus urmatoarea clasificare a imaginilor digitale avand in vedere complexitatea
+si volumul de date necesar stocarii acestora ({\it Algorithms for Graphics and Image Processing, 1982 Computer Science Press, Inc}):
 
+\begin{itemize}
+
+	\item Clasa 1 - imagini color si imagini reprezentate din tonuri de gri (grayscale)
+	\item Clasa 2 - imagini binare (formate din doua culori)
+	\item Clasa 3 - imagini formate doar din linii si curbe continue
+	\item Clasa 4 - imagini compuse din puncte izolate si poligoane  
+
+\end{itemize}
+
+\> Aceste clase reprezinta multimea starilor in care o imagine se poate afla pe intreg parcursul procesului de prelucrare.
+
+\> Spre exemplu, o imagine de clasa 1 ar putea descrie un obiect oarecare (ex. o fotografie arbitrara).
+In urma unui proces de binarizare aceasta poate fi transformata intr-o imagine de clasa 2.
+Prin aplicarea algoritmilor de extragere de contur sau a operatorilor morfologici (dilatare,
+eroziune) se va obtine o imagine de clasa 3, iar in final, extragerea punctelor critice,
+a zonelor de interes se va forma o imagine de clasa 4.
+
+\subsubsection{Filtrarea}
+
+\subsubsection{Restaurarea}
+
+\subsubsection{Segmentarea}
+
+\subsection{Operatori morfologici}
 
 \end{document}
