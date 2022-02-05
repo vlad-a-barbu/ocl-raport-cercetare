@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  30 JAN 2022 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  5 FEB 2022 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -665,34 +665,136 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./images//componente.png, id=17, 798.985pt x 362.35374pt>
+<./images//componente.png, id=15, 798.985pt x 362.35374pt>
 File: ./images//componente.png Graphic file (type png)
 <use ./images//componente.png>
-Package pdftex.def Info: ./images//componente.png  used on input line 113.
+Package pdftex.def Info: ./images//componente.png  used on input line 112.
 (pdftex.def)             Requested size: 399.49152pt x 181.17642pt.
 
-Overfull \hbox (15.37932pt too wide) in paragraph at lines 113--114
+Overfull \hbox (15.37932pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
 [2 <./images//componente.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--165
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
-[3] [4] (Raport.aux) ) 
+[3]
+<./images//noisy-images.png, id=33, 1446.40375pt x 430.60875pt>
+File: ./images//noisy-images.png Graphic file (type png)
+<use ./images//noisy-images.png>
+Package pdftex.def Info: ./images//noisy-images.png  used on input line 183.
+(pdftex.def)             Requested size: 289.27562pt x 86.12021pt.
+ [4 <./images//noisy-images.png>]
+<./images//image-filters-classification.png, id=38, 772.8875pt x 369.38pt>
+File: ./images//image-filters-classification.png Graphic file (type png)
+<use ./images//image-filters-classification.png>
+Package pdftex.def Info: ./images//image-filters-classification.png  used on input line 215.
+(pdftex.def)             Requested size: 386.4428pt x 184.68954pt.
+
+Overfull \hbox (2.3306pt too wide) in paragraph at lines 215--216
+ [] 
+ []
+
+[5 <./images//image-filters-classification.png (PNG copy)>]
+<./images//filtru-median-masca.png, id=42, 576.1525pt x 282.05376pt>
+File: ./images//filtru-median-masca.png Graphic file (type png)
+<use ./images//filtru-median-masca.png>
+Package pdftex.def Info: ./images//filtru-median-masca.png  used on input line 246.
+(pdftex.def)             Requested size: 288.07553pt x 141.02652pt.
+<./images//filtru-median.png, id=43, 738.76pt x 393.47pt>
+File: ./images//filtru-median.png Graphic file (type png)
+<use ./images//filtru-median.png>
+Package pdftex.def Info: ./images//filtru-median.png  used on input line 247.
+(pdftex.def)             Requested size: 369.37909pt x 196.73451pt.
+ [6 <./images//filtru-median-masca.png (PNG copy)> <./images//filtru-median.png (PNG copy)>]
+<./images//filtru-laplacian-ecuatie.png, id=48, 206.7725pt x 53.19875pt>
+File: ./images//filtru-laplacian-ecuatie.png Graphic file (type png)
+<use ./images//filtru-laplacian-ecuatie.png>
+Package pdftex.def Info: ./images//filtru-laplacian-ecuatie.png  used on input line 262.
+(pdftex.def)             Requested size: 103.38599pt x 26.5993pt.
+<./images//filtru-laplacian-masca.png, id=49, 476.78125pt x 201.75375pt>
+File: ./images//filtru-laplacian-masca.png Graphic file (type png)
+<use ./images//filtru-laplacian-masca.png>
+Package pdftex.def Info: ./images//filtru-laplacian-masca.png  used on input line 275.
+(pdftex.def)             Requested size: 238.39003pt x 100.87662pt.
+<./images//filtru-laplacian.png, id=50, 760.8425pt x 445.665pt>
+File: ./images//filtru-laplacian.png Graphic file (type png)
+<use ./images//filtru-laplacian.png>
+Package pdftex.def Info: ./images//filtru-laplacian.png  used on input line 276.
+(pdftex.def)             Requested size: 380.42032pt x 222.83195pt.
+ [7 <./images//filtru-laplacian-ecuatie.png> <./images//filtru-laplacian-masca.png (PNG copy)> <./images//filtru-laplacian.png (PNG copy)>]
+<./images//filtru-gaussian-masca.png, id=56, 588.1975pt x 290.08376pt>
+File: ./images//filtru-gaussian-masca.png Graphic file (type png)
+<use ./images//filtru-gaussian-masca.png>
+Package pdftex.def Info: ./images//filtru-gaussian-masca.png  used on input line 294.
+(pdftex.def)             Requested size: 294.09802pt x 145.04152pt.
+<./images//filtru-gaussian.png, id=57, 754.82pt x 434.62375pt>
+File: ./images//filtru-gaussian.png Graphic file (type png)
+<use ./images//filtru-gaussian.png>
+Package pdftex.def Info: ./images//filtru-gaussian.png  used on input line 295.
+(pdftex.def)             Requested size: 377.40909pt x 217.31134pt.
+ [8 <./images//filtru-gaussian-masca.png (PNG copy)> <./images//filtru-gaussian.png (PNG copy)>]
+<./images//segmentation.jpg, id=61, 600.2425pt x 223.83624pt>
+File: ./images//segmentation.jpg Graphic file (type jpg)
+<use ./images//segmentation.jpg>
+Package pdftex.def Info: ./images//segmentation.jpg  used on input line 320.
+(pdftex.def)             Requested size: 300.12051pt x 111.91785pt.
+ [9 <./images//segmentation.jpg>]
+<./images//operatori-detectare.png, id=65, 332.24126pt x 292.09125pt>
+File: ./images//operatori-detectare.png Graphic file (type png)
+<use ./images//operatori-detectare.png>
+Package pdftex.def Info: ./images//operatori-detectare.png  used on input line 370.
+(pdftex.def)             Requested size: 166.12021pt x 146.04526pt.
+ [10 <./images//operatori-detectare.png>]
+<./images//sobel-mask.jpg, id=70, 746.79pt x 357.335pt>
+File: ./images//sobel-mask.jpg Graphic file (type jpg)
+<use ./images//sobel-mask.jpg>
+Package pdftex.def Info: ./images//sobel-mask.jpg  used on input line 387.
+(pdftex.def)             Requested size: 224.03873pt x 107.20132pt.
+ [11 <./images//sobel-mask.jpg>]
+<./images//prewitt.png, id=74, 520.94624pt x 281.05pt>
+File: ./images//prewitt.png Graphic file (type png)
+<use ./images//prewitt.png>
+Package pdftex.def Info: ./images//prewitt.png  used on input line 418.
+(pdftex.def)             Requested size: 260.47249pt x 140.52464pt.
+ [12 <./images//prewitt.png>]
+<./images//robert.png, id=79, 337.26pt x 192.72pt>
+File: ./images//robert.png Graphic file (type png)
+<use ./images//robert.png>
+Package pdftex.def Info: ./images//robert.png  used on input line 447.
+(pdftex.def)             Requested size: 168.62958pt x 96.35976pt.
+ [13 <./images//robert.png>]
+<./images//marr-hildreth.jpg, id=85, 770.88pt x 578.16pt>
+File: ./images//marr-hildreth.jpg Graphic file (type jpg)
+<use ./images//marr-hildreth.jpg>
+Package pdftex.def Info: ./images//marr-hildreth.jpg  used on input line 481.
+(pdftex.def)             Requested size: 231.26578pt x 173.44933pt.
+
+Overfull \hbox (7.07619pt too wide) in paragraph at lines 498--499
+[]\T1/cmr/m/n/10 Acesta genereaz  r spun-suri zgo-mo-toase care nu core-spund unor muchii, a[]a-numitele
+ []
+
+[14 <./images//marr-hildreth.jpg>]
+<./images//canny.png, id=89, 677.53125pt x 775.89874pt>
+File: ./images//canny.png Graphic file (type png)
+<use ./images//canny.png>
+Package pdftex.def Info: ./images//canny.png  used on input line 523.
+(pdftex.def)             Requested size: 203.26094pt x 232.77141pt.
+ [15 <./images//canny.png>] (Raport.aux) ) 
 Here is how much of TeX's memory you used:
- 21777 strings out of 478659
- 463055 string characters out of 2845920
- 720926 words of memory out of 3000000
- 39520 multiletter control sequences out of 15000+600000
- 419126 words of font info for 71 fonts, out of 8000000 for 9000
+ 21958 strings out of 478659
+ 468458 string characters out of 2845920
+ 720895 words of memory out of 3000000
+ 39698 multiletter control sequences out of 15000+600000
+ 419892 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,89p,502b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Raport.pdf (4 pages, 194679 bytes).
+ <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Raport.pdf (15 pages, 1757680 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

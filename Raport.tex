@@ -20,7 +20,7 @@ calculator,calc,mathtools,empheq,latexsym}
 	si clasificare a imaginilor 2D}
 }
 \author{
-Barbu Vlad Alexandru$^{1}$, Stefanescu Gheorghe$^{2}$
+Barbu Vlad Alexandru
 }
 
 \begin{document}
@@ -36,8 +36,7 @@ Barbu Vlad Alexandru$^{1}$, Stefanescu Gheorghe$^{2}$
 Facultatea de Matematica si Informatica, \\
 Universitatea din Bucuresti, \\
 Bucuresti, Romania \\
-$^1$vlad.barbu@s.unibuc.ro \\
-$^2$gheorghe.stefanescu@fmi.unibuc.ro \\
+vlad.barbu@s.unibuc.ro \\
 }
 \end{center}
 
@@ -115,9 +114,7 @@ Componentele principale ale unui sistem de recunoastere si clasificare a formelo
 
 \newpage
 
-\section{Componenta de preprocesare}\label{sec:3}
-
-\subsection{Reprezentarea unei imagini digitale}
+\section{Reprezentarea imaginilor}\label{sec:3}
 
 \> Din punct de vedere matematic, o imagine poate fi reprezentata sub forma unei
 functii de doua variabile:
@@ -168,35 +165,383 @@ element (x, y) al acesteia poarta numele de pixel.
 
 \newpage
 
-\subsection{Tehnici de preprocesare}
+\section{Preprocesarea imaginii si eliminarea zgomotului}
 
-\> Profesorul Universitatii Stony Brook din New York, Theodosios Pavlidis, 
-a propus urmatoarea clasificare a imaginilor digitale avand in vedere complexitatea
-si volumul de date necesar stocarii acestora ({\it Algorithms for Graphics and Image Processing, 1982 Computer Science Press, Inc}):
+\> Zgomotul de imagine este o variație aleatorie a luminozității sau a informațiilor de culoare
+din imagini și este, de obicei, un aspect al zgomotului electronic.
+Acesta reprezinta un produs secundar nedorit al captării imaginii, care ascunde informațiile dorite.
+
+\> Sensul original al cuvântului "zgomot" era "semnal nedorit". Prin analogie, fluctuațiile electrice nedorite sunt, de asemenea, numite "zgomot".
+
+\> Zgomotul de imagine poate varia de la pete aproape imperceptibile pe o fotografie digitală făcută în condiții de lumină bună,
+până la imagini care sunt aproape în întregime zgomot,
+din care se poate obține o cantitate mică de informații chiar si prin metode de procesare sofisticată.
+Un astfel de nivel de zgomot ar fi inacceptabil într-o fotografie, deoarece ar fi imposibil să se determine subiectul.
+
+\begin{center}
+
+  \includegraphics[scale=0.2]{noisy-images}
+  
+\end{center}
+
+\> Procesele de eliminare a zgomotului din cadrul unei imagini sunt cunoscute si sub numele de
+operatii de filtrare. Scopul acestora este reprezentat de nevoia evidentierii muchiilor si reliefarea entitatilor observabile.
+
+\> Trei dintre cele mai folosite metode de filtrare sunt:
+
 
 \begin{itemize}
 
-	\item Clasa 1 - imagini color si imagini reprezentate din tonuri de gri (grayscale)
-	\item Clasa 2 - imagini binare (formate din doua culori)
-	\item Clasa 3 - imagini formate doar din linii si curbe continue
-	\item Clasa 4 - imagini compuse din puncte izolate si poligoane  
+	\item Filtrul trece-jos - procedura de filtrare a zgomotului realizat prin operatii de uniformizare a spectrului imaginii
+	\item Filtrul trece-banda - procedura comuna de eliminare a zgomotului in domeniile in care se prelucreaza imagini obtinute prin metode de teledetectie
+	\item Filtrul trece-sus - procedura utilizata in cazul in care evidentierea contururilor este principala nevoie de prelucrare
 
 \end{itemize}
 
-\> Aceste clase reprezinta multimea starilor in care o imagine se poate afla pe intreg parcursul procesului de prelucrare.
+\> De asemenea, metodele de filtrare si analiza a semnalelor unidimensionale pot fi extinse cu usurinta in mediul semnalelor bidimensionale - putem
+descompune un semnal bidimensional in sume de semnale sinusoidale.
 
-\> Spre exemplu, o imagine de clasa 1 ar putea descrie un obiect oarecare (ex. o fotografie arbitrara).
-In urma unui proces de binarizare aceasta poate fi transformata intr-o imagine de clasa 2.
-Prin aplicarea algoritmilor de extragere de contur sau a operatorilor morfologici (dilatare,
-eroziune) se va obtine o imagine de clasa 3, iar in final, extragerea punctelor critice,
-a zonelor de interes se va forma o imagine de clasa 4.
+\newpage
 
-\subsubsection{Filtrarea}
+\> Tehnicile de filtrare sunt utilizate pentru a îmbunătăți și modifica imaginile digitale.
+De asemenea, filtrele de imagine sunt utilizate pentru a reduce neclaritatea și zgomotul, pentru a îmbunătăți claritatea
+și pentru a detecta marginile.
 
-\subsubsection{Restaurarea}
+\> Filtrele de imagine sunt utilizate în principiu pentru suprimarea frecvențelor înalte
+(tehnici de netezire) și joase (îmbunătățirea imaginii, detectarea marginilor).
 
-\subsubsection{Segmentarea}
+\begin{center}
 
-\subsection{Operatori morfologici}
+  \includegraphics[scale=0.5]{image-filters-classification}
+  
+\end{center}
+
+\> În conformitate cu această clasificare, filtrele de imagine pot fi împărțite în două categorii principale:
+
+\begin{itemize}
+
+	\item Filtrarea spațială - metoda tradițională de filtrare a imaginilor, care se utilizează direct pe pixelii imaginii
+	\item Filtrele în domeniul frecvenței - metoda utilizata pentru a elimina frecvențele înalte și joase și pentru netezire
+	
+\end{itemize}
+
+\> Filtrele neliniare sunt utilizate pentru a detecta marginile. Aceste tehnici de filtrare sunt mai eficiente decât filtrele liniare.
+În cazul filtrării liniare, detaliile și marginile imaginii tind să se estompeze.
+
+\> Filtrul Gaussian, filtrul Laplacian și filtrul de medie de vecinătate (medie) pot fi identificate ca exemple de filtre liniare.
+Filtrele mediane sunt filtre neliniare.
+
+\newpage
+
+\subsection{Filtrul median}
+
+\> Filtrul median este un filtru neliniar care înlocuiește valorile fiecărui pixel cu valorile mediane ale pixelilor săi vecini.
+
+
+\> Acesta este un mod eficient de a elimina zgomotul de tip "salt and pepper" - o formă de zgomot, cunoscuta și sub numele de 
+zgomot de impuls, poate fi cauzat de perturbații bruște în semnalul de imagine si se prezintă sub forma unor pixeli albi și negri cu apariție dispersată.
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{filtru-median-masca}
+  \includegraphics[scale=0.5]{filtru-median}
+
+\end{center}
+
+\newpage
+
+\subsection{Filtrul Laplacian}
+
+\> Tehnica de netezire Laplace este utilizată în principal pentru a detecta marginile imaginii.
+Aceasta evidențiază discontinuitățile nivelului de gri. Se bazează pe a doua derivare spațială a unei imagini.
+
+\> Pentru a defini operatorul Laplacian, a fost utilizată ecuația de mai jos:
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{filtru-laplacian-ecuatie}
+
+\end{center}
+
+\> Detectorul de margini Laplace utilizează un singur nucleu.
+Pentru a detecta marginile unei imagini, acest nucleu detectează derivatele de ordinul 2 ale nivelurilor de
+intensitate ale imaginii, utilizând o singură trecere.
+
+\> Putem utiliza cel de-al doilea nucleu din imaginile de mai jos pentru a detecta marginile cu diagonale.
+Acesta va oferi o aproximare mai bună. De asemenea, metoda Laplace oferă calcule mai rapide decât celelalte.
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{filtru-laplacian-masca}
+  \includegraphics[scale=0.5]{filtru-laplacian}
+
+\end{center}
+
+\newpage
+
+
+\subsection{Filtrul Gaussian}
+
+\> Acest filtru este un operator convoluțional 2-D. Se utilizează pentru a estompa imaginile.
+De asemenea, elimină detaliile și zgomotele. Filtrul gaussian este similar cu filtrul mediu,
+dar principala diferență este că filtrul gaussian utilizează un nucleu. Acest nucleu are forma unei "cocoașe" gaussiene.
+
+\> Nucleul gaussian ponderează pixelii din centrul său mult mai puternic decât cei de la limitele sale.
+Există diferite nuclee gaussiene. În funcție de dimensiunea nucleului, imaginea de ieșire va fi diferită.
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{filtru-gaussian-masca}
+  \includegraphics[scale=0.5]{filtru-gaussian}
+
+\end{center}
+
+
+\section{Segmentarea imaginii}
+
+\> Segmentarea imaginilor este procesul prin care o imagine digitală este împărțită în diferite subgrupuri (de pixeli)
+numite entitati observabile, reducand complexitatea imaginii, astfel analiza acesteia devenind mai simplă.
+
+\> Procesele de acest tip utilizeaza diverși algoritmi de segmentare a imaginilor pentru a diviza și grupa un anumit set de pixeli din imagine.
+În acest fel, atribuim de fapt "etichete" pixelilor, iar pixelii cu aceeași etichetă formeaza un obiect de interes.
+
+\> Cu ajutorul acestor etichete, putem preciza limitele si conturul, separand entitatile observabile
+dintr-o imagine de "fundalul" acesteia. În exemplul de mai jos, dintr-o imagine initiala,
+se incearca obtinerea componentele majore (de exemplu, scaunul, masa etc.) folosind diverse tehnici de segmentare.
+
+\> Procesul de segmentare are ca scop delimitarea zonelor de interes din cadrul unei imagini, 
+pornind de la o multime de criterii prestabilite. La finalul acestei operatii fiecarui pixel
+ii va fi asociata o valoare cu ajutorul careia ii poate fi definita apartenenta la o anumita regiune de interes
+din imagine - o astfel de zona de interes reprezinta un segment, iar imaginea initiala este reprezentata de reuniunea
+tuturor segmentelor rezultate.
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{segmentation}
+  
+\end{center}
+
+\> De obicei, metodele de segmentare au in vedere urmatoarele cazuri:
+
+\begin{itemize}
+
+	\item discontinuitatea entitatilor observabile - in acest caz o metoda potrivita de segmentare ar fi detectia conturului
+	\item similitudinea observabilelor - cele mai comune metode de segmentare folosite in acest caz sunt metoda regiunilor si metoda pragului
+
+\end{itemize}
+
+\newpage
+
+\section{Detectarea contururilor}
+
+\> Un contur poate fi reprezentat de o modificare brusca de lumina, culoare, umbra sau
+textura din contextul unei imagini digitale. Analiza imaginilor folosind metode de
+detectare a contururilor ajuta atat la solutionarea necesitatii de a extragere anumite obiecte
+de interes din cadrul acestora cat si la filtrarea informatiei inutile.
+
+\> Deoarece calitatea rezultatelor oferite de procesele de detectare poate fi afectata de cantitatea de zgomot prezenta in imagine,
+un procedeu robust si bine stabilit de preprocesare si filtrare a acesteia este deseori necesar. 
+
+\> Muchiile sunt modificări locale semnificative de intensitate într-o imagine digitală.
+O muchie poate fi definită ca un set de pixeli conectați care formează o limită între două regiuni disjuncte.
+Există trei tipuri de muchii: orizontale, verticale si diagonale.
+
+\> Detectarea marginilor este o metodă de segmentare a unei imagini în regiuni de discontinuitate.
+Este o tehnică utilizată pe scară largă în prelucrarea digitală a imaginilor, cum ar fi recunoasterea formelor ("pattern recognition") sau
+extragerea caracteristicilor ("feature extraction").
+
+\> Detectarea marginilor permite utilizatorilor să observe caracteristicile unei imagini pentru o schimbare semnificativă a nivelului de gri.
+Această textură indică sfârșitul unei regiuni din imagine și începutul alteia.
+Aceasta reduce cantitatea de date dintr-o imagine și păstrează proprietățile structurale ale imaginii. 
+
+Operatorii de detectare a marginilor sunt de două tipuri: 
+
+\begin{itemize}
+
+  \item Gradient - operator bazat pe care calculează derivatele de ordinul întâi într-o imagine digitală,
+  cum ar fi: operatorul Sobel, operatorul Prewitt, operatorul Robert
+  \item Gaussian - operator bazat pe Gaussian care calculează derivatele de ordinul doi într-o imagine digitală,
+  cum ar fi: detectorul de margini Canny, Laplacianul lui Gaussian
+
+\end{itemize}
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{operatori-detectare}
+  
+\end{center}
+
+\newpage
+
+\subsection{Operatorul Sobel}
+
+\> Operatorul Sobel este un operator de diferențiere discretă.
+Acesta calculează aproximarea gradientului funcției de intensitate a imaginii pentru detectarea marginilor imaginii.
+
+\> Aplicat pe pixelii unei imagini, operatorul Sobel produce fie normala la un vector, fie vectorul gradient corespunzător.
+Acesta Utilizează două nuclee sau măști 3 x 3 care sunt convolute cu imaginea de intrare pentru a calcula aproximările derivatei
+verticale și, respectiv, orizontale. 
+
+\begin{center}
+
+  \includegraphics[scale=0.3]{sobel-mask.jpg}
+  
+\end{center}
+
+\> Avantaje:
+\begin{itemize}
+
+  \item Calcul simplu și eficient în timp
+  \item Foarte ușor la căutarea de margini netede
+
+\end{itemize}
+
+\> Limitari:
+\begin{itemize}
+
+  \item Punctele de direcție diagonală nu sunt păstrate întotdeauna
+  \item Foarte sensibil la zgomot
+  \item Nu este foarte precis în detectarea marginilor
+  \item Detectarea cu margini groase și aspre nu dă rezultate corespunzătoare
+  
+\end{itemize}
+
+\newpage
+
+\subsection{Operatorul Prewitt}
+
+\> Operatorul Prewitt este similar cu operatorul sobel. De asemenea, acesta detectează marginile verticale și orizontale ale unei imagini.
+Este una dintre cele mai bune modalități de a detecta orientarea și magnitudinea unei imagini.
+ 
+\begin{center}
+
+  \includegraphics[scale=0.5]{prewitt}
+  
+\end{center}
+
+\> Avantaje:
+\begin{itemize}
+
+  \item Performanță bună la detectarea marginilor verticale și orizontale
+  \item Cel mai bun operator pentru a detecta orientarea unei imagini
+
+\end{itemize}
+
+\> Limitari:
+\begin{itemize}
+
+  \item Mărimea coeficientului este fixă și nu poate fi modificată
+  \item Punctele de direcție diagonală nu sunt păstrate întotdeauna
+  
+\end{itemize}
+
+\newpage
+
+
+\subsection{Operatorul Robert}
+
+\> Operatorul Robert calculează suma pătratelor diferențelor dintre pixelii adiacenți pe diagonală dintr-o imagine prin diferențiere discretă,
+dupa care va face aproximarea gradientului.
+\begin{center}
+
+  \includegraphics[scale=0.5]{robert}
+  
+\end{center}
+
+\> Avantaje:
+\begin{itemize}
+
+  \item Detectarea marginilor și orientarea sunt foarte ușoare
+  \item Punctele de direcție diagonală sunt păstrate
+
+\end{itemize}
+
+\> Limitari:
+\begin{itemize}
+
+  \item Foarte sensibil la zgomot
+  \item Nu este foarte precis în detectarea marginilor
+  
+\end{itemize}
+
+\newpage
+
+
+
+\subsection{Operatorul Marr-Hildreth}
+
+\> Operatorul Marr-Hildreth sau Laplacianul lui Gauss (LoG) este un operator bazat pe gaussian care utilizează Laplacianul
+pentru a lua a doua derivată a unei imagini. Acesta funcționează foarte bine atunci când tranziția nivelului de gri pare a fi bruscă.
+
+\> Funcționează pe baza metodei de trecere prin zero, adică atunci când derivata de ordinul doi trece prin zero, atunci acea locație specifică corespunde unui nivel maxim.
+Aceasta se numește locație de margine. Aici, operatorul gaussian reduce zgomotul, iar operatorul laplacian detectează marginile ascuțite. 
+
+\begin{center}
+
+  \includegraphics[scale=0.3]{marr-hildreth}
+  
+\end{center}
+
+\> Avantaje:
+\begin{itemize}
+
+  \item Ușor de detectat marginile și diferitele orientări ale acestora
+  \item Există caracteristici fixe în toate direcțiile
+  
+\end{itemize}
+
+\> Limitari:
+\begin{itemize}
+
+  \item Foarte sensibil la zgomot
+  \item Eroarea de localizare poate fi severă la marginile curbate
+  \item Acesta generează răspunsuri zgomotoase care nu corespund unor muchii, așa-numitele "muchii false"
+  
+\end{itemize}
+
+\newpage
+
+
+\subsection{Operatorul Canny}
+
+\> Operatorul Canny este un operator bazat pe gaussian pentru detectarea marginilor. 
+Acest operator nu este sensibil la zgomot. Acesta extrage caracteristicile imaginii fără a afecta sau modifica caracteristicile.
+
+\> Detectorul de margini Canny are un algoritm avansat derivat din munca anterioară a operatorului Marr-Hildreth.
+Este o tehnică de detectare optimă a marginilor, utilizată pe scară largă. Acesta detectează marginile pe baza a trei criterii: 
+
+\begin{itemize}
+
+  \item Rata de eroare scăzută 
+  \item Punctele de margine trebuie să fie localizate cu precizie 
+  \item Ar trebui să existe doar un singur răspuns pe muchie
+
+\end{itemize}
+
+\begin{center}
+
+  \includegraphics[scale=0.3]{canny}
+  
+\end{center}
+
+\> Avantaje:
+\begin{itemize}
+
+  \item Are o localizare bună
+  \item Acesta extrage caracteristicile imaginii fără a modifica caracteristicile
+  \item Mai puțin sensibil la zgomot
+
+\end{itemize}
+
+\> Limitari:
+\begin{itemize}
+
+  \item Există o trecere falsă la zero
+  \item Calcul complex și consumator de timp
+  
+\end{itemize}
+
+\newpage
+
 
 \end{document}
