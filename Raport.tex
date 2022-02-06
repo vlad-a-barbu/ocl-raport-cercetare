@@ -1,12 +1,13 @@
 \documentclass[10pt]{article}
 \usepackage[english]{babel}
+\usepackage{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,cancel,siunitx,
 calculator,calc,mathtools,empheq,latexsym}
 \usepackage{subfig,epsfig,tikz,float}
 \usepackage{booktabs,multicol,multirow,tabularx,array}
-\usepackage{natbib}
+\usepackage[square,sort,comma,numbers]{natbib}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 \setlength{\parindent}{0pt}
@@ -543,5 +544,210 @@ Este o tehnică de detectare optimă a marginilor, utilizată pe scară largă. 
 
 \newpage
 
+\section{Histograme de intensitate}
+
+\subsection{Scurta descriere}
+
+\> În contextul procesării imaginilor, histograma este folosita pentru reprezentarea distributiei valorilor intensității pixelilor.
+Această reprezentare este un grafic care expune numărul de pixeli dintr-o imagine apartinand unei valori diferite de intensitate găsite în acea imagine.
+
+\> Pentru o imagine în tonuri de gri pe 8 biți, există 256 de intensități diferite posibile, astfel încât histograma va afișa grafic 256 de numere
+care descriu distribuția pixelilor între aceste valori ale tonurilor de gri. Histogramele pot fi, de asemenea, realizate pentru imaginile color -
+fie se pot realiza histograme individuale fiecarui canal (in cazul spectrului RGB - roșu, verde și albastru), fie se poate realiza o histogramă tridimensională, 
+în care cele trei axe reprezintă canalele roșu, albastru și verde, iar luminozitatea din fiecare punct reprezintă numărul de pixeli.
+ 
+ \> Rezultatul exact al operațiunii depinde de implementare. Acesta poate fi pur și simplu o imagine a histogramei solicitate într-un format de
+imagine adecvat sau poate fi un fișier de date care să reprezinte informatia incapsulata de histograma.
+
+
+\begin{center}
+
+  \includegraphics[scale=0.7]{histograma-intensitate}
+  
+\end{center}
+
+\subsection{Cum functioneaza}
+
+\> Procesul de aplicarea a acestei metode este foarte simplu:
+imaginea este scanată într-o singură trecere (rand cu rand) și se va stoca o contorizare a numărului de pixeli găsiți pentru fiecare valoare de intensitate.
+Aceasta contorizare este apoi utilizată pentru a construi o histogramă reprezentativa.
+
+\newpage
+
+\section{Exemplu de aplicatie}
+
+\> Exemplul de aplicatie folosit pentru a demonstra cateva dintre tehnicile de preprocesare, recunoastere si clasificare
+descrise anterior este reprezentat de un microserviciu scris in limbajul 'Go' al carui scop este extragerea textului digital din cadrul
+unui document scanat.
+
+\> De asemenea a fost realizata si o interfata pentru studiul si analiza eficientei microserviciului reprezentata de
+o aplicatie web care pune la dispozitie o panza pe care putem desena diverse forme sau incarca imagini de pe disc si 
+invoca functionalitati puse la dispozitie de microserviciul de recunoastere. 
+
+\> Pentru mai multe detalii legate de implementari, acestea sunt puse la dispozitie pentru eventualii doritori (
+\href{https://github.com/vlad-a-barbu/gocr}{github.com/vlad-a-barbu/gocr} si \href{https://github.com/vlad-a-barbu/gocr-ui}{github.com/vlad-a-barbu/gocr-ui}).
+
+\> Structura si modul de functionare al microserviciului este descris de urmatorii pasi:
+
+\begin{itemize}
+
+  \item Preprocesarea documentului 
+  \item Extragerea obiectelor de interes (subimagini reprezentand caracterele ce urmeaza a fi identificate) 
+  \item Pentru fiecare candidat al procesului de recunoastere se vor genera cate doua histograme reprezentand
+  distributia pixelilor de interes atat din perspectiva verticala cat si din perspectiva orizontala
+  \item Pentru fiecare candidat al procesului de recunoastere se va genera o pereche de expresii regulate
+  reprezentand numarul de intervale continue de pixeli de interes continuti pe randurile deprinse din perspectiva verticala,
+  respectiva din perspectiva orizontala
+  \item Microserviciul se va folosi de un set de histograme si perechi de expresii de referinta in baza carora se va face clasificarea
+  
+\end{itemize}
+
+\> * Setul de date de referinta este rezultat din incarcarea unei imagini de baza care va contine cate o subimagine reprezentativa
+fiecarui caracter folosit in documentele ce urmeaza sa fie analizate - spre exemplu imaginea de baza ar putea fi reprezentata de
+alfabetul limbajului in care au fost scrise documentele ce urmeaza a fi identificate. Pentru simplitate se pot folosi reprezentari ale alfabetului englez
+in diverse fonturi des intalnite: helvetica, arial, times new roman, etc.
+
+\> * Scopul microserviciului nu este acela de a oferi consumatorilor sai o metoda robusta si generala de identificare si clasificare. Acesta serveste
+drept aplicatie demonstrativa, suport de invatare si experimentare pentru diverse metode de procesare a imaginilor digitale.
+
+\newpage
+
+\subsection{Metode de preprocesare}
+
+Imagine folosita de-a lungul procesului de recunoastere:
+
+\begin{center}
+
+  \includegraphics[scale=0.7]{imagine-analizata.jpg}
+  
+\end{center}
+
+\> Putem observa efectele conversiei la imagine tip Grayscale - a fost realizata maparea din spectrul de culori RGB in spectrul Grayscale
+(tonuri de gri) folosind urmatoarea formula de calcul a luminantei relative:
+
+\begin{center}
+
+  \includegraphics[scale=1]{formula-luminanta}
+  
+\end{center}
+
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{efecte-grayscale}
+  
+\end{center}
+
+\newpage
+
+\> Efectele aplicarii unui filtru tip threshold alegand o valoare maxima acceptata pentru luminanta pixelilor 
+(se observa fenomenul de fragmentare a caracterelor):
+
+\begin{center}
+
+  \includegraphics[scale=1]{fragmentare}
+  
+\end{center}
+
+\> Efectele aplicarii unei masti de interpolare pe verticala si orizontala a pixelilor vecini pentru a rezolva problema fragmentarii:
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{lipire-normala}
+  
+\end{center}
+
+\> Efectele aplicarii unei masti de interpolare pe verticala, orizontala si diagonala a pixelilor vecini pentru a rezolva problema fragmentarii
+(metoda mai agresiva, se poate observa fenomenul de "lipire" a entitatilor observabile):
+
+\begin{center}
+
+  \includegraphics[scale=1]{lipire-agresiva}
+  
+\end{center}
+
+\> Selectarea obiectelor de interes a fost realizata prin procesul de parcurgere a imaginii preprocesate rand cu rand,
+si aplicarea metodelor de segmentare descrise anterior pentru a grupa pixelii de interes in mai multe clase de entitati observabile.
+
+\> Pentru implementare s-au folosit algoritmi de tip 'Fill' la momentul interceptarii unui pixel de interes, luand in considerare atat
+vecinii de pe orizontala si verticala cat si vecinii de pe diagonala (proces eficientizat de mastile si filtrele descrise mai sus).
+
+\newpage
+
+\subsection{Formarea descriptorilor de referinta}
+
+\> Urmatoarea imagine prezinta alfabetul englez de caractere reprezentata de fontul Helvetica (unul dintre cele mai populare 
+fonturi pentru documentele digitale):
+
+\begin{center}
+
+  \includegraphics[scale=0.1]{helvetica}
+  
+\end{center}
+
+\> In baza acestei imagini s-a extras pe rand fiecare caracter, si i-au fost asociate urmatoarele metadate:
+
+\begin{itemize}
+
+  \item O pereche de expresii regulate reprezentand frecventele pixelilor de interes pe randuri si pe coloane
+  \item O histograma urmarind distributia pixelilor de interes din perspectiva orizontala
+  \item O histograma urmarind distributia pixelilor de interes din perspectiva verticala
+  
+\end{itemize}
+
+\> Histogramele vor fi folosite drept factori cantitativi in procesul de clasificare,
+urmand ca expresiile sa intervina drept factor calitativ (descriptori de 'forma' pentru caracterele analizate).
+  
+\> Exemple de expresii regulate de referinta:
+
+\begin{center}
+
+  \includegraphics[scale=0.6]{model-expresii}
+  
+\end{center}
+  
+\newpage
+
+\subsection{Generarea histogramelor}
+
+\> Subimagine a caracterului de referinta analizat:
+
+\begin{center}
+
+  \includegraphics[scale=1]{hist-image}
+  
+\end{center}
+
+\> Histograma urmarind distributia pixelilor de interes din perspectiva orizontala (frecventa acestora pe randuri):
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{hist-rows}
+  
+\end{center}
+
+\> Histograma urmarind distributia pixelilor de interes din perspectiva verticala (frecventa acestora pe coloane):
+
+\begin{center}
+
+  \includegraphics[scale=0.5]{hist-cols}
+  
+\end{center}
+
+\newpage
+
+\begin{thebibliography}{widest entry}
+  \bibitem[1]{key1} \href{https://en.wikipedia.org/wiki/Image_noise}{en.wikipedia.org/wiki/ImageNoise}
+  \bibitem[2]{key2} \href{https://www.analytixlabs.co.in/blog/what-is-image-segmentation/}{analytixlabs.co.in/blog/what-is-image-segmentation/}
+  \bibitem[3]{key3} \href{https://medium.com/@shashikadilhani97/digital-image-processing-filters-832ec6d18a73}{medium.com/@shashikadilhani97/digital-image-processing-filters}
+  \bibitem[4]{key4} \href{https://www.geeksforgeeks.org/image-edge-detection-operators-in-digital-image-processing/}{geeksforgeeks.org/image-edge-detection-operators-in-digital-image-processing/}
+  \bibitem[5]{key5} \href{http://old.upm.ro/facultati_departamente/stiinte_litere/conferinte/situl_integrare_europeana/Lucrari2/Ioan_Ispas.pdf}{old.upm.ro/facultati-departamente/stiinte-litere/conferinte/situl-integrare-europeana/Lucrari2/Ioan-Ispas.pdf}
+  \bibitem[6]{key6} \href{http://www.perform.usv.ro/rapoarte/10/raport_cercetare_1.pdf}{perform.usv.ro/rapoarte/10/raport-cercetare-1.pdf}
+  \bibitem[7]{key7} \href{https://rria.ici.ro/wp-content/uploads/2020/10/Complex_Architectures_Used_in_Image_Parallel_Processing.pdf}{rria.ici.ro/wp-content/uploads/2020/10/Complex-Architectures-Used-in-Image-Parallel-Processing.pdf}
+  \bibitem[8]{key8} \href{https://www.miv.ro/books/MIvanovici_PI.pdf}{www.miv.ro/books/MIvanovici-PI.pdf}
+  \bibitem[9]{key9} \href{https://www.researchgate.net/profile/Gaurav-Gupta-53/publication/325681876_Image_Filtering_Algorithms_and_Techniques_A_Review/links/5b1e1ab0aca272021cf585c9/Image-Filtering-Algorithms-and-Techniques-A-Review.pdf}{researchgate.net/profile/Gaurav-Gupta-53/publication/Image-Filtering-Algorithms-and-Techniques-A-Review.pdf}
+  \bibitem[10]{key10} \href{https://books.google.ro/books?id=xeWpCAAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false}{books.google.ro/Theo-Pavlidis-Algorithms-for-Graphics-and-Image-Processing}
+  \bibitem[11]{key11} \href{https://homepages.inf.ed.ac.uk/rbf/HIPR2/histgram.htm}{homepages.inf.ed.ac.uk/rbf/HIPR2/histgram}
+\end{thebibliography} 
 
 \end{document}

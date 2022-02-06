@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  5 FEB 2022 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  6 FEB 2022 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -44,64 +44,172 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-)) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen140
+\Hy@linkcounter=\count193
+\Hy@pagecounter=\count194
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count195
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count196
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen141
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count197
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count198
+\c@Item=\count199
+\c@Hfootnote=\count266
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count267
+\c@bookmark@seq@number=\count268
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip49
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen140
+\@emptytoks=\toks19
+\ex@=\dimen144
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
+\pmbraise@=\dimen145
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count193
+\inf@bad=\count269
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count194
-\leftroot@=\count195
+\uproot@=\count270
+\leftroot@=\count271
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count196
-\DOTSCASE@=\count197
+\classnum@=\count272
+\DOTSCASE@=\count273
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen142
+\big@size=\dimen146
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count198
-\c@MaxMatrixCols=\count199
-\dotsspace@=\muskip16
-\c@parentequation=\count266
-\dspbrk@lvl=\count267
-\tag@help=\toks19
-\row@=\count268
-\column@=\count269
-\maxfields@=\count270
-\andhelp@=\toks20
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
-\@envbody=\toks21
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks22
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip17
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks20
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks21
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -115,133 +223,118 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip52
-\thm@postskip=\skip53
-\thm@headsep=\skip54
-\dth@everypar=\toks28
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks29
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-01-20 v3.0.43 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen149
+\l__siunitx_angle_tmp_dim=\dimen153
 \l__siunitx_angle_marker_box=\box52
 \l__siunitx_angle_unit_box=\box53
-\l__siunitx_compound_count_int=\count271
+\l__siunitx_compound_count_int=\count281
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages (CN)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count272
-) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+\etb@tempcnta=\count282
 ))
-\l__siunitx_number_exponent_fixed_int=\count273
-\l__siunitx_number_min_decimal_int=\count274
-\l__siunitx_number_min_integer_int=\count275
-\l__siunitx_number_round_precision_int=\count276
-\l__siunitx_number_group_minimum_int=\count277
+\l__siunitx_number_exponent_fixed_int=\count283
+\l__siunitx_number_min_decimal_int=\count284
+\l__siunitx_number_min_integer_int=\count285
+\l__siunitx_number_round_precision_int=\count286
+\l__siunitx_number_group_minimum_int=\count287
 \l__siunitx_table_tmp_box=\box54
-\l__siunitx_table_tmp_dim=\dimen150
-\l__siunitx_table_column_width_dim=\dimen151
+\l__siunitx_table_tmp_dim=\dimen154
+\l__siunitx_table_column_width_dim=\dimen155
 \l__siunitx_table_integer_box=\box55
 \l__siunitx_table_decimal_box=\box56
 \l__siunitx_table_before_box=\box57
 \l__siunitx_table_after_box=\box58
-\l__siunitx_table_before_dim=\dimen152
-\l__siunitx_table_carry_dim=\dimen153
-\l__siunitx_unit_tmp_int=\count278
-\l__siunitx_unit_position_int=\count279
-\l__siunitx_unit_total_int=\count280
+\l__siunitx_table_before_dim=\dimen156
+\l__siunitx_table_carry_dim=\dimen157
+\l__siunitx_unit_tmp_int=\count288
+\l__siunitx_unit_position_int=\count289
+\l__siunitx_unit_total_int=\count290
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-11-22 L3 programming layer (loader) 
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
+\l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box59
 ))
 Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen154
+\col@sep=\dimen158
 \ar@mcellbox=\box60
-\extrarowheight=\dimen155
-\NC@list=\toks29
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extrarowheight=\dimen159
+\NC@list=\toks30
+\extratabsurround=\skip56
+\backup@length=\skip57
 \ar@cellbox=\box61
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/calculator\calculator.sty
 Package: calculator 2014/02/20 v.2.0
-\cctr@lengtha=\dimen156
-\cctr@lengthb=\dimen157
-\cctr@epsilon=\dimen158
+\cctr@lengtha=\dimen160
+\cctr@lengthb=\dimen161
+\cctr@epsilon=\dimen162
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count282
-\calc@Bcount=\count283
-\calc@Adimen=\dimen159
-\calc@Bdimen=\dimen160
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Acount=\count292
+\calc@Bcount=\count293
+\calc@Adimen=\dimen163
+\calc@Bdimen=\dimen164
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count284
-\calc@Cskip=\skip59
+\calc@Ccount=\count294
+\calc@Cskip=\skip60
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
- (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks30
-) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count285
-\l_MT_multwidth_dim=\dimen161
-\origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen162
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen163
-\l_MT_above_intertext_sep=\dimen164
-\l_MT_below_intertext_sep=\dimen165
-\l_MT_above_shortintertext_sep=\dimen166
-\l_MT_below_shortintertext_sep=\dimen167
+\g_MT_multlinerow_int=\count295
+\l_MT_multwidth_dim=\dimen165
+\origjot=\skip61
+\l_MT_shortvdotswithinadjustabove_dim=\dimen166
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen167
+\l_MT_above_intertext_sep=\dimen168
+\l_MT_below_intertext_sep=\dimen169
+\l_MT_above_shortintertext_sep=\dimen170
+\l_MT_below_shortintertext_sep=\dimen171
 \xmathstrut@box=\box62
-\xmathstrut@dim=\dimen168
+\xmathstrut@dim=\dimen172
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\empheq.sty
 Package: empheq 2017/03/31 v2.15 Emphasizing equations
-\l_EQ_equationtype_int=\count286
-\l_EQ_alignmentmode_int=\count287
-\l_EQ_totalwidth_dim=\dimen169
-\l_EQ_displaywidth_dim=\dimen170
-\l_EQ_temp_linewidth_dim=\dimen171
-\l_EQ_linewidth_dim=\dimen172
-\EmphEqdelimitershortfall=\dimen173
-\EmphEqdelimiterfactor=\count288
-\g_EQ_toptag_height_dim=\dimen174
-\g_EQ_bottomtag_depth_dim=\dimen175
-\g_EQ_toprow_height_dim=\dimen176
-\g_EQ_bottomrow_depth_dim=\dimen177
-\g_EQ_widesttag_dim=\dimen178
+\l_EQ_equationtype_int=\count296
+\l_EQ_alignmentmode_int=\count297
+\l_EQ_totalwidth_dim=\dimen173
+\l_EQ_displaywidth_dim=\dimen174
+\l_EQ_temp_linewidth_dim=\dimen175
+\l_EQ_linewidth_dim=\dimen176
+\EmphEqdelimitershortfall=\dimen177
+\EmphEqdelimiterfactor=\count298
+\g_EQ_toptag_height_dim=\dimen178
+\g_EQ_bottomtag_depth_dim=\dimen179
+\g_EQ_toprow_height_dim=\dimen180
+\g_EQ_bottomrow_depth_dim=\dimen181
+\g_EQ_widesttag_dim=\dimen182
 \EQ_mathdisplay_box=\box63
 \EQ_tag_box=\box64
-\g_EQ_temprow_int=\count289
+\g_EQ_temprow_int=\count299
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
@@ -253,31 +346,32 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen179
-\captionmargin@=\dimen180
-\captionwidth=\dimen181
-\caption@tempdima=\dimen182
-\caption@indent=\dimen183
-\caption@parindent=\dimen184
-\caption@hangindent=\dimen185
+\captionmargin=\dimen183
+\captionmargin@=\dimen184
+\captionwidth=\dimen185
+\caption@tempdima=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count290
-\c@continuedfloat=\count291
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count292
-\sf@farskip=\skip61
-\sf@captopadj=\dimen186
-\sf@capskip=\skip62
-\sf@nearskip=\skip63
-\c@subfigure=\count293
-\c@subfigure@save=\count294
-\c@lofdepth=\count295
-\c@subtable=\count296
-\c@subtable@save=\count297
-\c@lotdepth=\count298
-\sf@top=\skip64
-\sf@bottom=\skip65
+\c@KVtest=\count302
+\sf@farskip=\skip62
+\sf@captopadj=\dimen190
+\sf@capskip=\skip63
+\sf@nearskip=\skip64
+\c@subfigure=\count303
+\c@subfigure@save=\count304
+\c@lofdepth=\count305
+\c@subtable=\count306
+\c@subtable@save=\count307
+\c@lotdepth=\count308
+\sf@top=\skip65
+\sf@bottom=\skip66
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -293,15 +387,15 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen187
-\Gin@req@width=\dimen188
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
 )
-\epsfxsize=\dimen189
-\epsfysize=\dimen190
+\epsfxsize=\dimen193
+\epsfysize=\dimen194
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen191
-\pgfutil@tempdimb=\dimen192
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box65
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -316,26 +410,26 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks34
 ))
-\pgf@x=\dimen193
-\pgf@y=\dimen194
-\pgf@xa=\dimen195
-\pgf@ya=\dimen196
-\pgf@xb=\dimen197
-\pgf@yb=\dimen198
-\pgf@xc=\dimen199
-\pgf@yc=\dimen256
-\pgf@xd=\dimen257
-\pgf@yd=\dimen258
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count299
-\c@pgf@countb=\count300
-\c@pgf@countc=\count301
-\c@pgf@countd=\count302
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
 \t@pgf@toka=\toks35
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count303
+\pgf@sys@id@count=\count313
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -346,8 +440,8 @@ File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count304
-\pgfsyssoftpath@bigbuffer@items=\count305
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -368,52 +462,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen259
-\pgfmath@count=\count306
+\pgfmath@dimen=\dimen263
+\pgfmath@count=\count316
 \pgfmath@box=\box66
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count307
+\c@pgfmathroundto@lastzeros=\count317
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen260
-\pgf@picmaxx=\dimen261
-\pgf@picminy=\dimen262
-\pgf@picmaxy=\dimen263
-\pgf@pathminx=\dimen264
-\pgf@pathmaxx=\dimen265
-\pgf@pathminy=\dimen266
-\pgf@pathmaxy=\dimen267
-\pgf@xx=\dimen268
-\pgf@xy=\dimen269
-\pgf@yx=\dimen270
-\pgf@yy=\dimen271
-\pgf@zx=\dimen272
-\pgf@zy=\dimen273
+\pgf@picminx=\dimen264
+\pgf@picmaxx=\dimen265
+\pgf@picminy=\dimen266
+\pgf@picmaxy=\dimen267
+\pgf@pathminx=\dimen268
+\pgf@pathmaxx=\dimen269
+\pgf@pathminy=\dimen270
+\pgf@pathmaxy=\dimen271
+\pgf@xx=\dimen272
+\pgf@xy=\dimen273
+\pgf@yx=\dimen274
+\pgf@yy=\dimen275
+\pgf@zx=\dimen276
+\pgf@zy=\dimen277
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen274
-\pgf@path@lasty=\dimen275
+\pgf@path@lastx=\dimen278
+\pgf@path@lasty=\dimen279
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen276
-\pgf@shorten@start@additional=\dimen277
+\pgf@shorten@end@additional=\dimen280
+\pgf@shorten@start@additional=\dimen281
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box67
 \pgf@hbox=\box68
 \pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count308
+\pgf@picture@serial@count=\count318
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen278
+\pgflinewidth=\dimen282
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen279
-\pgf@pt@y=\dimen280
-\pgf@pt@temp=\dimen281
+\pgf@pt@x=\dimen283
+\pgf@pt@y=\dimen284
+\pgf@pt@temp=\dimen285
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -422,12 +516,12 @@ File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen282
+\pgfarrowsep=\dimen286
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen283
-\pgf@sys@shading@range@num=\count309
-\pgf@shadingcount=\count310
+\pgf@max=\dimen287
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -448,94 +542,94 @@ File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
 \pgffor@stack=\toks41
 \pgffor@toks=\toks42
 )) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count311
-\pgfplotmarksize=\dimen288
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen292
 )
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikz@lastmovetox=\dimen293
-\tikz@lastmovetoy=\dimen294
-\tikzleveldistance=\dimen295
-\tikzsiblingdistance=\dimen296
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
 \tikz@figbox=\box72
 \tikz@figbox@bg=\box73
 \tikz@tempbox=\box74
 \tikz@tempbox@bg=\box75
-\tikztreelevel=\count312
-\tikznumberofchildren=\count313
-\tikznumberofcurrentchild=\count314
-\tikz@fig@count=\count315
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count316
-\pgfmatrixcurrentcolumn=\count317
-\pgf@matrix@numberofcolumns=\count318
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
 )
-\tikz@expandcount=\count319
+\tikz@expandcount=\count329
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count320
+\c@float@type=\count330
 \float@exts=\toks43
 \float@box=\box76
 \@float@everytoks=\toks44
 \@floatcapt=\box77
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen297
-\lightrulewidth=\dimen298
-\cmidrulewidth=\dimen299
-\belowrulesep=\dimen300
-\belowbottomsep=\dimen301
-\aboverulesep=\dimen302
-\abovetopsep=\dimen303
-\cmidrulesep=\dimen304
-\cmidrulekern=\dimen305
-\defaultaddspace=\dimen306
-\@cmidla=\count321
-\@cmidlb=\count322
-\@aboverulesep=\dimen307
-\@belowrulesep=\dimen308
-\@thisruleclass=\count323
-\@lastruleclass=\count324
-\@thisrulewidth=\dimen309
+\heavyrulewidth=\dimen301
+\lightrulewidth=\dimen302
+\cmidrulewidth=\dimen303
+\belowrulesep=\dimen304
+\belowbottomsep=\dimen305
+\aboverulesep=\dimen306
+\abovetopsep=\dimen307
+\cmidrulesep=\dimen308
+\cmidrulekern=\dimen309
+\defaultaddspace=\dimen310
+\@cmidla=\count331
+\@cmidlb=\count332
+\@aboverulesep=\dimen311
+\@belowrulesep=\dimen312
+\@thisruleclass=\count333
+\@lastruleclass=\count334
+\@thisrulewidth=\dimen313
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count325
+\c@tracingmulticols=\count335
 \mult@box=\box78
-\multicol@leftmargin=\dimen310
-\c@unbalance=\count326
-\c@collectmore=\count327
-\doublecol@number=\count328
-\multicoltolerance=\count329
-\multicolpretolerance=\count330
-\full@width=\dimen311
-\page@free=\dimen312
-\premulticols=\dimen313
-\postmulticols=\dimen314
-\multicolsep=\skip66
-\multicolbaselineskip=\skip67
+\multicol@leftmargin=\dimen314
+\c@unbalance=\count336
+\c@collectmore=\count337
+\doublecol@number=\count338
+\multicoltolerance=\count339
+\multicolpretolerance=\count340
+\full@width=\dimen315
+\page@free=\dimen316
+\premulticols=\dimen317
+\postmulticols=\dimen318
+\multicolsep=\skip67
+\multicolbaselineskip=\skip68
 \partial@page=\box79
 \last@line=\box80
-\maxbalancingoverflow=\dimen315
+\maxbalancingoverflow=\dimen319
 \mult@rightbox=\box81
 \mult@grightbox=\box82
 \mult@firstbox=\box83
@@ -576,74 +670,94 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box118
 \@tempa=\box119
 \@tempa=\box120
-\c@minrows=\count331
-\c@columnbadness=\count332
-\c@finalcolumnbadness=\count333
-\last@try=\dimen316
-\multicolovershoot=\dimen317
-\multicolundershoot=\dimen318
+\c@minrows=\count341
+\c@columnbadness=\count342
+\c@finalcolumnbadness=\count343
+\last@try=\dimen320
+\multicolovershoot=\dimen321
+\multicolundershoot=\dimen322
 \mult@nat@firstbox=\box121
 \colbreak@box=\box122
-\mc@col@check@num=\count334
+\mc@col@check@num=\count344
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip68
-\multirow@cntb=\count335
-\multirow@dima=\skip69
-\bigstrutjot=\dimen319
+\multirow@colwidth=\skip69
+\multirow@cntb=\count345
+\multirow@dima=\skip70
+\bigstrutjot=\dimen323
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen320
-\TX@old@table=\dimen321
-\TX@old@col=\dimen322
-\TX@target=\dimen323
-\TX@delta=\dimen324
-\TX@cols=\count336
+\TX@col@width=\dimen324
+\TX@old@table=\dimen325
+\TX@old@col=\dimen326
+\TX@target=\dimen327
+\TX@delta=\dimen328
+\TX@cols=\count346
 \TX@ftn=\toks45
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip70
-\bibsep=\skip71
+\bibhang=\skip71
+\bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count337
+\c@NAT@ctr=\count347
 ) (Raport.aux)
 \openout1 = `Raport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+Package hyperref Info: Link coloring OFF on input line 27.
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count348
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+ (Raport.out) (Raport.out)
+\@outlinefile=\write4
+\openout4 = `Raport.out'.
+
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 26.
-\Hy@linkcounter=\count338
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen325
+\scratchcounter=\count349
+\scratchdimen=\dimen329
 \scratchbox=\box123
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\nofMPsegments=\count350
+\nofMParguments=\count351
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen326
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen330
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
 \everyMPtoPDFconversion=\toks47
 ) (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -651,150 +765,248 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 30.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 32.
  (C:\Users\vlada\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./images//componente.png, id=15, 798.985pt x 362.35374pt>
+<./images//componente.png, id=102, 798.985pt x 362.35374pt>
 File: ./images//componente.png Graphic file (type png)
 <use ./images//componente.png>
-Package pdftex.def Info: ./images//componente.png  used on input line 112.
+Package pdftex.def Info: ./images//componente.png  used on input line 113.
 (pdftex.def)             Requested size: 399.49152pt x 181.17642pt.
 
-Overfull \hbox (15.37932pt too wide) in paragraph at lines 112--113
+Overfull \hbox (15.37932pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
 [2 <./images//componente.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
 [3]
-<./images//noisy-images.png, id=33, 1446.40375pt x 430.60875pt>
+<./images//noisy-images.png, id=125, 1446.40375pt x 430.60875pt>
 File: ./images//noisy-images.png Graphic file (type png)
 <use ./images//noisy-images.png>
-Package pdftex.def Info: ./images//noisy-images.png  used on input line 183.
+Package pdftex.def Info: ./images//noisy-images.png  used on input line 184.
 (pdftex.def)             Requested size: 289.27562pt x 86.12021pt.
  [4 <./images//noisy-images.png>]
-<./images//image-filters-classification.png, id=38, 772.8875pt x 369.38pt>
+<./images//image-filters-classification.png, id=131, 772.8875pt x 369.38pt>
 File: ./images//image-filters-classification.png Graphic file (type png)
 <use ./images//image-filters-classification.png>
-Package pdftex.def Info: ./images//image-filters-classification.png  used on input line 215.
+Package pdftex.def Info: ./images//image-filters-classification.png  used on input line 216.
 (pdftex.def)             Requested size: 386.4428pt x 184.68954pt.
 
-Overfull \hbox (2.3306pt too wide) in paragraph at lines 215--216
+Overfull \hbox (2.3306pt too wide) in paragraph at lines 216--217
  [] 
  []
 
 [5 <./images//image-filters-classification.png (PNG copy)>]
-<./images//filtru-median-masca.png, id=42, 576.1525pt x 282.05376pt>
+<./images//filtru-median-masca.png, id=136, 576.1525pt x 282.05376pt>
 File: ./images//filtru-median-masca.png Graphic file (type png)
 <use ./images//filtru-median-masca.png>
-Package pdftex.def Info: ./images//filtru-median-masca.png  used on input line 246.
+Package pdftex.def Info: ./images//filtru-median-masca.png  used on input line 247.
 (pdftex.def)             Requested size: 288.07553pt x 141.02652pt.
-<./images//filtru-median.png, id=43, 738.76pt x 393.47pt>
+<./images//filtru-median.png, id=137, 738.76pt x 393.47pt>
 File: ./images//filtru-median.png Graphic file (type png)
 <use ./images//filtru-median.png>
-Package pdftex.def Info: ./images//filtru-median.png  used on input line 247.
+Package pdftex.def Info: ./images//filtru-median.png  used on input line 248.
 (pdftex.def)             Requested size: 369.37909pt x 196.73451pt.
  [6 <./images//filtru-median-masca.png (PNG copy)> <./images//filtru-median.png (PNG copy)>]
-<./images//filtru-laplacian-ecuatie.png, id=48, 206.7725pt x 53.19875pt>
+<./images//filtru-laplacian-ecuatie.png, id=143, 206.7725pt x 53.19875pt>
 File: ./images//filtru-laplacian-ecuatie.png Graphic file (type png)
 <use ./images//filtru-laplacian-ecuatie.png>
-Package pdftex.def Info: ./images//filtru-laplacian-ecuatie.png  used on input line 262.
+Package pdftex.def Info: ./images//filtru-laplacian-ecuatie.png  used on input line 263.
 (pdftex.def)             Requested size: 103.38599pt x 26.5993pt.
-<./images//filtru-laplacian-masca.png, id=49, 476.78125pt x 201.75375pt>
+<./images//filtru-laplacian-masca.png, id=144, 476.78125pt x 201.75375pt>
 File: ./images//filtru-laplacian-masca.png Graphic file (type png)
 <use ./images//filtru-laplacian-masca.png>
-Package pdftex.def Info: ./images//filtru-laplacian-masca.png  used on input line 275.
+Package pdftex.def Info: ./images//filtru-laplacian-masca.png  used on input line 276.
 (pdftex.def)             Requested size: 238.39003pt x 100.87662pt.
-<./images//filtru-laplacian.png, id=50, 760.8425pt x 445.665pt>
+<./images//filtru-laplacian.png, id=145, 760.8425pt x 445.665pt>
 File: ./images//filtru-laplacian.png Graphic file (type png)
 <use ./images//filtru-laplacian.png>
-Package pdftex.def Info: ./images//filtru-laplacian.png  used on input line 276.
+Package pdftex.def Info: ./images//filtru-laplacian.png  used on input line 277.
 (pdftex.def)             Requested size: 380.42032pt x 222.83195pt.
  [7 <./images//filtru-laplacian-ecuatie.png> <./images//filtru-laplacian-masca.png (PNG copy)> <./images//filtru-laplacian.png (PNG copy)>]
-<./images//filtru-gaussian-masca.png, id=56, 588.1975pt x 290.08376pt>
+<./images//filtru-gaussian-masca.png, id=152, 588.1975pt x 290.08376pt>
 File: ./images//filtru-gaussian-masca.png Graphic file (type png)
 <use ./images//filtru-gaussian-masca.png>
-Package pdftex.def Info: ./images//filtru-gaussian-masca.png  used on input line 294.
+Package pdftex.def Info: ./images//filtru-gaussian-masca.png  used on input line 295.
 (pdftex.def)             Requested size: 294.09802pt x 145.04152pt.
-<./images//filtru-gaussian.png, id=57, 754.82pt x 434.62375pt>
+<./images//filtru-gaussian.png, id=153, 754.82pt x 434.62375pt>
 File: ./images//filtru-gaussian.png Graphic file (type png)
 <use ./images//filtru-gaussian.png>
-Package pdftex.def Info: ./images//filtru-gaussian.png  used on input line 295.
+Package pdftex.def Info: ./images//filtru-gaussian.png  used on input line 296.
 (pdftex.def)             Requested size: 377.40909pt x 217.31134pt.
  [8 <./images//filtru-gaussian-masca.png (PNG copy)> <./images//filtru-gaussian.png (PNG copy)>]
-<./images//segmentation.jpg, id=61, 600.2425pt x 223.83624pt>
+<./images//segmentation.jpg, id=158, 600.2425pt x 223.83624pt>
 File: ./images//segmentation.jpg Graphic file (type jpg)
 <use ./images//segmentation.jpg>
-Package pdftex.def Info: ./images//segmentation.jpg  used on input line 320.
+Package pdftex.def Info: ./images//segmentation.jpg  used on input line 321.
 (pdftex.def)             Requested size: 300.12051pt x 111.91785pt.
  [9 <./images//segmentation.jpg>]
-<./images//operatori-detectare.png, id=65, 332.24126pt x 292.09125pt>
+<./images//operatori-detectare.png, id=163, 332.24126pt x 292.09125pt>
 File: ./images//operatori-detectare.png Graphic file (type png)
 <use ./images//operatori-detectare.png>
-Package pdftex.def Info: ./images//operatori-detectare.png  used on input line 370.
+Package pdftex.def Info: ./images//operatori-detectare.png  used on input line 371.
 (pdftex.def)             Requested size: 166.12021pt x 146.04526pt.
  [10 <./images//operatori-detectare.png>]
-<./images//sobel-mask.jpg, id=70, 746.79pt x 357.335pt>
+<./images//sobel-mask.jpg, id=169, 746.79pt x 357.335pt>
 File: ./images//sobel-mask.jpg Graphic file (type jpg)
 <use ./images//sobel-mask.jpg>
-Package pdftex.def Info: ./images//sobel-mask.jpg  used on input line 387.
+Package pdftex.def Info: ./images//sobel-mask.jpg  used on input line 388.
 (pdftex.def)             Requested size: 224.03873pt x 107.20132pt.
  [11 <./images//sobel-mask.jpg>]
-<./images//prewitt.png, id=74, 520.94624pt x 281.05pt>
+<./images//prewitt.png, id=174, 520.94624pt x 281.05pt>
 File: ./images//prewitt.png Graphic file (type png)
 <use ./images//prewitt.png>
-Package pdftex.def Info: ./images//prewitt.png  used on input line 418.
+Package pdftex.def Info: ./images//prewitt.png  used on input line 419.
 (pdftex.def)             Requested size: 260.47249pt x 140.52464pt.
  [12 <./images//prewitt.png>]
-<./images//robert.png, id=79, 337.26pt x 192.72pt>
+<./images//robert.png, id=180, 337.26pt x 192.72pt>
 File: ./images//robert.png Graphic file (type png)
 <use ./images//robert.png>
-Package pdftex.def Info: ./images//robert.png  used on input line 447.
+Package pdftex.def Info: ./images//robert.png  used on input line 448.
 (pdftex.def)             Requested size: 168.62958pt x 96.35976pt.
  [13 <./images//robert.png>]
-<./images//marr-hildreth.jpg, id=85, 770.88pt x 578.16pt>
+<./images//marr-hildreth.jpg, id=187, 770.88pt x 578.16pt>
 File: ./images//marr-hildreth.jpg Graphic file (type jpg)
 <use ./images//marr-hildreth.jpg>
-Package pdftex.def Info: ./images//marr-hildreth.jpg  used on input line 481.
+Package pdftex.def Info: ./images//marr-hildreth.jpg  used on input line 482.
 (pdftex.def)             Requested size: 231.26578pt x 173.44933pt.
 
-Overfull \hbox (7.07619pt too wide) in paragraph at lines 498--499
+Overfull \hbox (7.07619pt too wide) in paragraph at lines 499--500
 []\T1/cmr/m/n/10 Acesta genereaz  r spun-suri zgo-mo-toase care nu core-spund unor muchii, a[]a-numitele
  []
 
 [14 <./images//marr-hildreth.jpg>]
-<./images//canny.png, id=89, 677.53125pt x 775.89874pt>
+<./images//canny.png, id=192, 677.53125pt x 775.89874pt>
 File: ./images//canny.png Graphic file (type png)
 <use ./images//canny.png>
-Package pdftex.def Info: ./images//canny.png  used on input line 523.
+Package pdftex.def Info: ./images//canny.png  used on input line 524.
 (pdftex.def)             Requested size: 203.26094pt x 232.77141pt.
- [15 <./images//canny.png>] (Raport.aux) ) 
+ [15 <./images//canny.png>]
+<./images//histograma-intensitate.png, id=198, 487.8225pt x 246.9225pt>
+File: ./images//histograma-intensitate.png Graphic file (type png)
+<use ./images//histograma-intensitate.png>
+Package pdftex.def Info: ./images//histograma-intensitate.png  used on input line 565.
+(pdftex.def)             Requested size: 341.47342pt x 172.84456pt.
+ [16 <./images//histograma-intensitate.png>] [17]
+<./images//imagine-analizata.jpg, id=210, 298.716pt x 421.0932pt>
+File: ./images//imagine-analizata.jpg Graphic file (type jpg)
+<use ./images//imagine-analizata.jpg>
+Package pdftex.def Info: ./images//imagine-analizata.jpg  used on input line 621.
+(pdftex.def)             Requested size: 209.09976pt x 294.76321pt.
+<./images//formula-luminanta.png, id=211, 156.96141pt x 16.18547pt>
+File: ./images//formula-luminanta.png Graphic file (type png)
+<use ./images//formula-luminanta.png>
+Package pdftex.def Info: ./images//formula-luminanta.png  used on input line 630.
+(pdftex.def)             Requested size: 156.96101pt x 16.18541pt.
+<./images//efecte-grayscale.png, id=212, 444.53578pt x 162.6075pt>
+File: ./images//efecte-grayscale.png Graphic file (type png)
+<use ./images//efecte-grayscale.png>
+Package pdftex.def Info: ./images//efecte-grayscale.png  used on input line 637.
+(pdftex.def)             Requested size: 222.26733pt x 81.30354pt.
+ [18 <./images//imagine-analizata.jpg> <./images//formula-luminanta.png> <./images//efecte-grayscale.png>]
+<./images//fragmentare.png, id=217, 211.54031pt x 69.25874pt>
+File: ./images//fragmentare.png Graphic file (type png)
+<use ./images//fragmentare.png>
+Package pdftex.def Info: ./images//fragmentare.png  used on input line 648.
+(pdftex.def)             Requested size: 211.53978pt x 69.25856pt.
+<./images//lipire-normala.png, id=218, 408.77719pt x 149.43329pt>
+File: ./images//lipire-normala.png Graphic file (type png)
+<use ./images//lipire-normala.png>
+Package pdftex.def Info: ./images//lipire-normala.png  used on input line 656.
+(pdftex.def)             Requested size: 204.38809pt x 74.71645pt.
+<./images//lipire-agresiva.png, id=219, 207.39984pt x 81.68016pt>
+File: ./images//lipire-agresiva.png Graphic file (type png)
+<use ./images//lipire-agresiva.png>
+Package pdftex.def Info: ./images//lipire-agresiva.png  used on input line 665.
+(pdftex.def)             Requested size: 207.39934pt x 81.67995pt.
+ [19 <./images//fragmentare.png> <./images//lipire-normala.png> <./images//lipire-agresiva.png>]
+<./images//helvetica.png, id=225, 1104.125pt x 843.15pt>
+File: ./images//helvetica.png Graphic file (type png)
+<use ./images//helvetica.png>
+Package pdftex.def Info: ./images//helvetica.png  used on input line 684.
+(pdftex.def)             Requested size: 110.41896pt x 84.31993pt.
+<./images//model-expresii.png, id=226, 472.38985pt x 211.91672pt>
+File: ./images//model-expresii.png Graphic file (type png)
+<use ./images//model-expresii.png>
+Package pdftex.def Info: ./images//model-expresii.png  used on input line 705.
+(pdftex.def)             Requested size: 283.43608pt x 127.151pt.
+ [20 <./images//helvetica.png> <./images//model-expresii.png>]
+<./images//hist-image.png, id=232, 55.20625pt x 66.2475pt>
+File: ./images//hist-image.png Graphic file (type png)
+<use ./images//hist-image.png>
+Package pdftex.def Info: ./images//hist-image.png  used on input line 717.
+(pdftex.def)             Requested size: 55.2061pt x 66.24733pt.
+
+Overfull \hbox (0.43254pt too wide) in paragraph at lines 721--722
+[] \T1/cmr/m/n/10 His-tograma ur-marind dis-tribu-tia pix-elilor de in-teres din per-spec-tiva or-i-zon-tala (frecventa
+ []
+
+<./images//hist-rows.png, id=233, 268.00125pt x 268.00125pt>
+File: ./images//hist-rows.png Graphic file (type png)
+<use ./images//hist-rows.png>
+Package pdftex.def Info: ./images//hist-rows.png  used on input line 725.
+(pdftex.def)             Requested size: 134.00029pt x 134.00029pt.
+<./images//hist-cols.png, id=234, 268.00125pt x 268.00125pt>
+File: ./images//hist-cols.png Graphic file (type png)
+<use ./images//hist-cols.png>
+Package pdftex.def Info: ./images//hist-cols.png  used on input line 733.
+(pdftex.def)             Requested size: 134.00029pt x 134.00029pt.
+[21 <./images//hist-image.png (PNG copy)> <./images//hist-rows.png (PNG copy)> <./images//hist-cols.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[][]\T1/cmr/m/n/10 geeksforgeeks.org/image-edge-detection-operators-in-digital-image-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+[][]\T1/cmr/m/n/10 old.upm.ro/facultati-departamente/stiinte-litere/conferinte/situl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
+[][]\T1/cmr/m/n/10 rria.ici.ro/wp-content/uploads/2020/10/Complex-Architectures-Used-in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
+[][]\T1/cmr/m/n/10 researchgate.net/profile/Gaurav-Gupta-53/publication/Image-Filtering-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
+[][]\T1/cmr/m/n/10 books.google.ro/Theo-Pavlidis-Algorithms-for-Graphics-and-Image-
+ []
+
+[22] (Raport.aux)
+Package rerunfilecheck Info: File `Raport.out' has not changed.
+(rerunfilecheck)             Checksum: 2F19ECD4139D7F40C1983FFB73FBB8AC;3485.
+ ) 
 Here is how much of TeX's memory you used:
- 21958 strings out of 478659
- 468458 string characters out of 2845920
- 720895 words of memory out of 3000000
- 39698 multiletter control sequences out of 15000+600000
+ 28585 strings out of 478659
+ 574454 string characters out of 2845920
+ 821479 words of memory out of 3000000
+ 46172 multiletter control sequences out of 15000+600000
  419892 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,89p,502b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,8n,89p,502b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Raport.pdf (15 pages, 1757680 bytes).
+Output written on Raport.pdf (22 pages, 1999781 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
