@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  6 FEB 2022 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.30)  8 FEB 2022 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,7 +779,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./images//componente.png, id=102, 798.985pt x 362.35374pt>
+<./images//componente.png, id=134, 798.985pt x 362.35374pt>
 File: ./images//componente.png Graphic file (type png)
 <use ./images//componente.png>
 Package pdftex.def Info: ./images//componente.png  used on input line 113.
@@ -795,13 +795,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--163
  []
 
 [3]
-<./images//noisy-images.png, id=125, 1446.40375pt x 430.60875pt>
+<./images//noisy-images.png, id=157, 1446.40375pt x 430.60875pt>
 File: ./images//noisy-images.png Graphic file (type png)
 <use ./images//noisy-images.png>
 Package pdftex.def Info: ./images//noisy-images.png  used on input line 184.
 (pdftex.def)             Requested size: 289.27562pt x 86.12021pt.
  [4 <./images//noisy-images.png>]
-<./images//image-filters-classification.png, id=131, 772.8875pt x 369.38pt>
+<./images//image-filters-classification.png, id=163, 772.8875pt x 369.38pt>
 File: ./images//image-filters-classification.png Graphic file (type png)
 <use ./images//image-filters-classification.png>
 Package pdftex.def Info: ./images//image-filters-classification.png  used on input line 216.
@@ -812,75 +812,75 @@ Overfull \hbox (2.3306pt too wide) in paragraph at lines 216--217
  []
 
 [5 <./images//image-filters-classification.png (PNG copy)>]
-<./images//filtru-median-masca.png, id=136, 576.1525pt x 282.05376pt>
+<./images//filtru-median-masca.png, id=168, 576.1525pt x 282.05376pt>
 File: ./images//filtru-median-masca.png Graphic file (type png)
 <use ./images//filtru-median-masca.png>
 Package pdftex.def Info: ./images//filtru-median-masca.png  used on input line 247.
 (pdftex.def)             Requested size: 288.07553pt x 141.02652pt.
-<./images//filtru-median.png, id=137, 738.76pt x 393.47pt>
+<./images//filtru-median.png, id=169, 738.76pt x 393.47pt>
 File: ./images//filtru-median.png Graphic file (type png)
 <use ./images//filtru-median.png>
 Package pdftex.def Info: ./images//filtru-median.png  used on input line 248.
 (pdftex.def)             Requested size: 369.37909pt x 196.73451pt.
  [6 <./images//filtru-median-masca.png (PNG copy)> <./images//filtru-median.png (PNG copy)>]
-<./images//filtru-laplacian-ecuatie.png, id=143, 206.7725pt x 53.19875pt>
+<./images//filtru-laplacian-ecuatie.png, id=175, 206.7725pt x 53.19875pt>
 File: ./images//filtru-laplacian-ecuatie.png Graphic file (type png)
 <use ./images//filtru-laplacian-ecuatie.png>
 Package pdftex.def Info: ./images//filtru-laplacian-ecuatie.png  used on input line 263.
 (pdftex.def)             Requested size: 103.38599pt x 26.5993pt.
-<./images//filtru-laplacian-masca.png, id=144, 476.78125pt x 201.75375pt>
+<./images//filtru-laplacian-masca.png, id=176, 476.78125pt x 201.75375pt>
 File: ./images//filtru-laplacian-masca.png Graphic file (type png)
 <use ./images//filtru-laplacian-masca.png>
 Package pdftex.def Info: ./images//filtru-laplacian-masca.png  used on input line 276.
 (pdftex.def)             Requested size: 238.39003pt x 100.87662pt.
-<./images//filtru-laplacian.png, id=145, 760.8425pt x 445.665pt>
+<./images//filtru-laplacian.png, id=177, 760.8425pt x 445.665pt>
 File: ./images//filtru-laplacian.png Graphic file (type png)
 <use ./images//filtru-laplacian.png>
 Package pdftex.def Info: ./images//filtru-laplacian.png  used on input line 277.
 (pdftex.def)             Requested size: 380.42032pt x 222.83195pt.
  [7 <./images//filtru-laplacian-ecuatie.png> <./images//filtru-laplacian-masca.png (PNG copy)> <./images//filtru-laplacian.png (PNG copy)>]
-<./images//filtru-gaussian-masca.png, id=152, 588.1975pt x 290.08376pt>
+<./images//filtru-gaussian-masca.png, id=184, 588.1975pt x 290.08376pt>
 File: ./images//filtru-gaussian-masca.png Graphic file (type png)
 <use ./images//filtru-gaussian-masca.png>
 Package pdftex.def Info: ./images//filtru-gaussian-masca.png  used on input line 295.
 (pdftex.def)             Requested size: 294.09802pt x 145.04152pt.
-<./images//filtru-gaussian.png, id=153, 754.82pt x 434.62375pt>
+<./images//filtru-gaussian.png, id=185, 754.82pt x 434.62375pt>
 File: ./images//filtru-gaussian.png Graphic file (type png)
 <use ./images//filtru-gaussian.png>
 Package pdftex.def Info: ./images//filtru-gaussian.png  used on input line 296.
 (pdftex.def)             Requested size: 377.40909pt x 217.31134pt.
  [8 <./images//filtru-gaussian-masca.png (PNG copy)> <./images//filtru-gaussian.png (PNG copy)>]
-<./images//segmentation.jpg, id=158, 600.2425pt x 223.83624pt>
+<./images//segmentation.jpg, id=190, 600.2425pt x 223.83624pt>
 File: ./images//segmentation.jpg Graphic file (type jpg)
 <use ./images//segmentation.jpg>
 Package pdftex.def Info: ./images//segmentation.jpg  used on input line 321.
 (pdftex.def)             Requested size: 300.12051pt x 111.91785pt.
  [9 <./images//segmentation.jpg>]
-<./images//operatori-detectare.png, id=163, 332.24126pt x 292.09125pt>
+<./images//operatori-detectare.png, id=195, 332.24126pt x 292.09125pt>
 File: ./images//operatori-detectare.png Graphic file (type png)
 <use ./images//operatori-detectare.png>
 Package pdftex.def Info: ./images//operatori-detectare.png  used on input line 371.
 (pdftex.def)             Requested size: 166.12021pt x 146.04526pt.
  [10 <./images//operatori-detectare.png>]
-<./images//sobel-mask.jpg, id=169, 746.79pt x 357.335pt>
+<./images//sobel-mask.jpg, id=201, 746.79pt x 357.335pt>
 File: ./images//sobel-mask.jpg Graphic file (type jpg)
 <use ./images//sobel-mask.jpg>
 Package pdftex.def Info: ./images//sobel-mask.jpg  used on input line 388.
 (pdftex.def)             Requested size: 224.03873pt x 107.20132pt.
  [11 <./images//sobel-mask.jpg>]
-<./images//prewitt.png, id=174, 520.94624pt x 281.05pt>
+<./images//prewitt.png, id=206, 520.94624pt x 281.05pt>
 File: ./images//prewitt.png Graphic file (type png)
 <use ./images//prewitt.png>
 Package pdftex.def Info: ./images//prewitt.png  used on input line 419.
 (pdftex.def)             Requested size: 260.47249pt x 140.52464pt.
  [12 <./images//prewitt.png>]
-<./images//robert.png, id=180, 337.26pt x 192.72pt>
+<./images//robert.png, id=212, 337.26pt x 192.72pt>
 File: ./images//robert.png Graphic file (type png)
 <use ./images//robert.png>
 Package pdftex.def Info: ./images//robert.png  used on input line 448.
 (pdftex.def)             Requested size: 168.62958pt x 96.35976pt.
  [13 <./images//robert.png>]
-<./images//marr-hildreth.jpg, id=187, 770.88pt x 578.16pt>
+<./images//marr-hildreth.jpg, id=219, 770.88pt x 578.16pt>
 File: ./images//marr-hildreth.jpg Graphic file (type jpg)
 <use ./images//marr-hildreth.jpg>
 Package pdftex.def Info: ./images//marr-hildreth.jpg  used on input line 482.
@@ -891,122 +891,139 @@ Overfull \hbox (7.07619pt too wide) in paragraph at lines 499--500
  []
 
 [14 <./images//marr-hildreth.jpg>]
-<./images//canny.png, id=192, 677.53125pt x 775.89874pt>
+<./images//canny.png, id=224, 677.53125pt x 775.89874pt>
 File: ./images//canny.png Graphic file (type png)
 <use ./images//canny.png>
 Package pdftex.def Info: ./images//canny.png  used on input line 524.
 (pdftex.def)             Requested size: 203.26094pt x 232.77141pt.
  [15 <./images//canny.png>]
-<./images//histograma-intensitate.png, id=198, 487.8225pt x 246.9225pt>
+<./images//histograma-intensitate.png, id=230, 487.8225pt x 246.9225pt>
 File: ./images//histograma-intensitate.png Graphic file (type png)
 <use ./images//histograma-intensitate.png>
 Package pdftex.def Info: ./images//histograma-intensitate.png  used on input line 565.
 (pdftex.def)             Requested size: 341.47342pt x 172.84456pt.
  [16 <./images//histograma-intensitate.png>] [17]
-<./images//imagine-analizata.jpg, id=210, 298.716pt x 421.0932pt>
+<./images//convolutie.png, id=240, 853.1875pt x 356.33125pt>
+File: ./images//convolutie.png Graphic file (type png)
+<use ./images//convolutie.png>
+Package pdftex.def Info: ./images//convolutie.png  used on input line 626.
+(pdftex.def)             Requested size: 341.26895pt x 142.52997pt.
+ [18 <./images//convolutie.png>] [19]
+<./images//proces-clasificare-cnn.jpeg, id=251, 1650.165pt x 883.3pt>
+File: ./images//proces-clasificare-cnn.jpeg Graphic file (type jpg)
+<use ./images//proces-clasificare-cnn.jpeg>
+Package pdftex.def Info: ./images//proces-clasificare-cnn.jpeg  used on input line 698.
+(pdftex.def)             Requested size: 330.02715pt x 176.65686pt.
+ [20 <./images//proces-clasificare-cnn.jpeg>] [21]
+<./images//imagine-analizata.jpg, id=263, 298.716pt x 421.0932pt>
 File: ./images//imagine-analizata.jpg Graphic file (type jpg)
 <use ./images//imagine-analizata.jpg>
-Package pdftex.def Info: ./images//imagine-analizata.jpg  used on input line 621.
+Package pdftex.def Info: ./images//imagine-analizata.jpg  used on input line 748.
 (pdftex.def)             Requested size: 209.09976pt x 294.76321pt.
-<./images//formula-luminanta.png, id=211, 156.96141pt x 16.18547pt>
+<./images//formula-luminanta.png, id=264, 156.96141pt x 16.18547pt>
 File: ./images//formula-luminanta.png Graphic file (type png)
 <use ./images//formula-luminanta.png>
-Package pdftex.def Info: ./images//formula-luminanta.png  used on input line 630.
+Package pdftex.def Info: ./images//formula-luminanta.png  used on input line 757.
 (pdftex.def)             Requested size: 156.96101pt x 16.18541pt.
-<./images//efecte-grayscale.png, id=212, 444.53578pt x 162.6075pt>
+<./images//efecte-grayscale.png, id=265, 444.53578pt x 162.6075pt>
 File: ./images//efecte-grayscale.png Graphic file (type png)
 <use ./images//efecte-grayscale.png>
-Package pdftex.def Info: ./images//efecte-grayscale.png  used on input line 637.
+Package pdftex.def Info: ./images//efecte-grayscale.png  used on input line 764.
 (pdftex.def)             Requested size: 222.26733pt x 81.30354pt.
- [18 <./images//imagine-analizata.jpg> <./images//formula-luminanta.png> <./images//efecte-grayscale.png>]
-<./images//fragmentare.png, id=217, 211.54031pt x 69.25874pt>
+ [22 <./images//imagine-analizata.jpg> <./images//formula-luminanta.png> <./images//efecte-grayscale.png>]
+<./images//fragmentare.png, id=270, 211.54031pt x 69.25874pt>
 File: ./images//fragmentare.png Graphic file (type png)
 <use ./images//fragmentare.png>
-Package pdftex.def Info: ./images//fragmentare.png  used on input line 648.
+Package pdftex.def Info: ./images//fragmentare.png  used on input line 775.
 (pdftex.def)             Requested size: 211.53978pt x 69.25856pt.
-<./images//lipire-normala.png, id=218, 408.77719pt x 149.43329pt>
+<./images//lipire-normala.png, id=271, 408.77719pt x 149.43329pt>
 File: ./images//lipire-normala.png Graphic file (type png)
 <use ./images//lipire-normala.png>
-Package pdftex.def Info: ./images//lipire-normala.png  used on input line 656.
+Package pdftex.def Info: ./images//lipire-normala.png  used on input line 783.
 (pdftex.def)             Requested size: 204.38809pt x 74.71645pt.
-<./images//lipire-agresiva.png, id=219, 207.39984pt x 81.68016pt>
+<./images//lipire-agresiva.png, id=272, 207.39984pt x 81.68016pt>
 File: ./images//lipire-agresiva.png Graphic file (type png)
 <use ./images//lipire-agresiva.png>
-Package pdftex.def Info: ./images//lipire-agresiva.png  used on input line 665.
+Package pdftex.def Info: ./images//lipire-agresiva.png  used on input line 792.
 (pdftex.def)             Requested size: 207.39934pt x 81.67995pt.
- [19 <./images//fragmentare.png> <./images//lipire-normala.png> <./images//lipire-agresiva.png>]
-<./images//helvetica.png, id=225, 1104.125pt x 843.15pt>
+ [23 <./images//fragmentare.png> <./images//lipire-normala.png> <./images//lipire-agresiva.png>]
+<./images//helvetica.png, id=277, 1104.125pt x 843.15pt>
 File: ./images//helvetica.png Graphic file (type png)
 <use ./images//helvetica.png>
-Package pdftex.def Info: ./images//helvetica.png  used on input line 684.
+Package pdftex.def Info: ./images//helvetica.png  used on input line 811.
 (pdftex.def)             Requested size: 110.41896pt x 84.31993pt.
-<./images//model-expresii.png, id=226, 472.38985pt x 211.91672pt>
+<./images//model-expresii.png, id=278, 472.38985pt x 211.91672pt>
 File: ./images//model-expresii.png Graphic file (type png)
 <use ./images//model-expresii.png>
-Package pdftex.def Info: ./images//model-expresii.png  used on input line 705.
+Package pdftex.def Info: ./images//model-expresii.png  used on input line 832.
 (pdftex.def)             Requested size: 283.43608pt x 127.151pt.
- [20 <./images//helvetica.png> <./images//model-expresii.png>]
-<./images//hist-image.png, id=232, 55.20625pt x 66.2475pt>
+ [24 <./images//helvetica.png> <./images//model-expresii.png>]
+<./images//hist-image.png, id=284, 55.20625pt x 66.2475pt>
 File: ./images//hist-image.png Graphic file (type png)
 <use ./images//hist-image.png>
-Package pdftex.def Info: ./images//hist-image.png  used on input line 717.
+Package pdftex.def Info: ./images//hist-image.png  used on input line 844.
 (pdftex.def)             Requested size: 55.2061pt x 66.24733pt.
 
-Overfull \hbox (0.43254pt too wide) in paragraph at lines 721--722
+Overfull \hbox (0.43254pt too wide) in paragraph at lines 848--849
 [] \T1/cmr/m/n/10 His-tograma ur-marind dis-tribu-tia pix-elilor de in-teres din per-spec-tiva or-i-zon-tala (frecventa
  []
 
-<./images//hist-rows.png, id=233, 268.00125pt x 268.00125pt>
+<./images//hist-rows.png, id=285, 268.00125pt x 268.00125pt>
 File: ./images//hist-rows.png Graphic file (type png)
 <use ./images//hist-rows.png>
-Package pdftex.def Info: ./images//hist-rows.png  used on input line 725.
+Package pdftex.def Info: ./images//hist-rows.png  used on input line 852.
 (pdftex.def)             Requested size: 134.00029pt x 134.00029pt.
-<./images//hist-cols.png, id=234, 268.00125pt x 268.00125pt>
+<./images//hist-cols.png, id=286, 268.00125pt x 268.00125pt>
 File: ./images//hist-cols.png Graphic file (type png)
 <use ./images//hist-cols.png>
-Package pdftex.def Info: ./images//hist-cols.png  used on input line 733.
+Package pdftex.def Info: ./images//hist-cols.png  used on input line 860.
 (pdftex.def)             Requested size: 134.00029pt x 134.00029pt.
-[21 <./images//hist-image.png (PNG copy)> <./images//hist-rows.png (PNG copy)> <./images//hist-cols.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[25 <./images//hist-image.png (PNG copy)> <./images//hist-rows.png (PNG copy)> <./images//hist-cols.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
 [][]\T1/cmr/m/n/10 geeksforgeeks.org/image-edge-detection-operators-in-digital-image-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 [][]\T1/cmr/m/n/10 old.upm.ro/facultati-departamente/stiinte-litere/conferinte/situl-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--747
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 [][]\T1/cmr/m/n/10 rria.ici.ro/wp-content/uploads/2020/10/Complex-Architectures-Used-in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 [][]\T1/cmr/m/n/10 researchgate.net/profile/Gaurav-Gupta-53/publication/Image-Filtering-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 [][]\T1/cmr/m/n/10 books.google.ro/Theo-Pavlidis-Algorithms-for-Graphics-and-Image-
  []
 
-[22] (Raport.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
+[][]\T1/cmr/m/n/10 dataspoof.info/post/how-to-perform-image-classification-using-
+ []
+
+[26] (Raport.aux)
 Package rerunfilecheck Info: File `Raport.out' has not changed.
-(rerunfilecheck)             Checksum: 2F19ECD4139D7F40C1983FFB73FBB8AC;3485.
+(rerunfilecheck)             Checksum: D7A26686C51B25B6A05FF8805313F1C2;5768.
  ) 
 Here is how much of TeX's memory you used:
- 28585 strings out of 478659
- 574454 string characters out of 2845920
- 821479 words of memory out of 3000000
- 46172 multiletter control sequences out of 15000+600000
- 419892 words of font info for 72 fonts, out of 8000000 for 9000
+ 28641 strings out of 478659
+ 575726 string characters out of 2845920
+ 826501 words of memory out of 3000000
+ 46212 multiletter control sequences out of 15000+600000
+ 420673 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,89p,502b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Raport.pdf (22 pages, 1999781 bytes).
+ 84i,8n,89p,750b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0600.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\vlada\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vlada/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Raport.pdf (26 pages, 2293330 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 

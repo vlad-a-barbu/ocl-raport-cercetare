@@ -574,6 +574,133 @@ Aceasta contorizare este apoi utilizată pentru a construi o histogramă repreze
 
 \newpage
 
+\section{Clasificare folosind metode de invatare automata}
+
+\> În ultimele câteva decenii, învățarea automată a câștigat multă popularitate în domeniul medical,
+al proiectarii si dezvoltarii vehiculelor autonome, al motoarelor de cautare pe internet și nu in utlimul rand, al recunoașterii imaginilor.
+
+\> Utilizarea sporită a internetului produce o cantitate masivă de date, din acest motiv mulți giganți din domeniul tehnologiei le exploatează folosind
+metode de analiza si modelare alcatuite din procese de invatare automata pentru a înțelege mai bine comportamentul si nevoile clienților lor.
+De asmenea, datorita metodelor de invatare automata si studiilor din acest domeniu, 
+industria medicală se afla intr-o continua schimbare (de exemplu, învățarea automata faciliteaza procesele medicale in moduri nemaintalnite, precum prezicerea
+sau detectarea din stagii incipiente a cancerului). Un alt domeniu afectat de acest avans tehnologic ar fi cel financiar,
+unde metodele de 'machine learning' și 'deep learning' faciliteaza procesul de gandire si luare a deciziilor de economisire, investire si alocare de resurse in general.
+
+\> Una dintre cele mai interesante aplicații ale metodelor de învățare automata este reprezentata de clasificarea imaginilor cu ajutorul retelelor neuronale convolutionale.
+
+\subsection{Ce este o retea neuronala convolutionala}
+
+\> Rețeaua neuronală convoluțională reprezinta o arhitectură specială de rețelea neuronala , aplicată cel mai frecvent in cazul problemelor de procesare si analiza de imagini.
+Termenul a fost inventat pentru prima dată în 1988 de Yann LeCun (cercetator francez care lucrează în principal în domeniile învățării automate, viziunii computerizate, roboticii mobile și neuroștiinței computaționale).
+
+\> De exemplu, Amazon folosește acest tip de retea neuronala pentru a genera recomandări de produse, Google îl folosește pentru a permite utilizatorului să foloseasca fotografii in contextul motoarelor de cautare, iar Facebook îl folosește pentru etichetarea automată a imaginilor.
+
+\> Sarcina principală a clasificării imaginilor este de a atribui, pe baza unei imagini de intrare, importanță (ponderi și prejudecăți care pot fi învățate) diferitelor entitati observabile din imagine și de a le putea diferenția unele de altele.
+Ochiul uman poate îndeplini aceste sarcini foarte ușor, în timp ce metodele de perceptie si analiza ale unui computer sunt foarte diferite.
+
+\> O rețea neuronală este formată din 3 componente: stratul de intrare, stratul ascuns și stratul de ieșire, in timp ce o rețea neuronală de convoluție are cinci componente:
+stratul de intrare, stratul de convoluție, stratul de punere în comun, stratul complet conectat și stratul de ieșire.
+
+\newpage
+
+\subsubsection{Stratul de convolutie}
+
+\> Stratul convoluțional este primul pas în construirea unui model CNN. În această etapă, vor fi extrase caracteristicile din imaginea de intrare.
+
+\> Există 3 elemente necesare care sunt implicate în efectuarea operației de convoluție:
+
+\begin{itemize}
+\item Imaginea de intrare: Imaginea care este dată ca intrare în stratul de convoluție
+\item Detectorul de caracteristici: Se mai numește și nucleu sau filtru care este utilizat pentru a produce o mapare a caracteristicilor prin asocierea element cu element asupra imaginilor de intrare
+(dimensiunea filtrului este egală cu n*m, unde "n" este numărul de intrări și "m" este numărul de ieșiri)
+\item Maparea caracteristicilor: Este rezultatul aplicarii detectorului de caracteristici peste imaginea de intrare 
+\end{itemize}
+
+\subsubsection{Cum functioneaza pasul de convolutie}
+
+\> Luăm două matrici care reprezinta imaginea de intrare și detectorul de caracteristici, și le înmulțim în funcție de elemente pentru a obține un nou set de matrici care reprezintă o mapare a caracteristicilor - caracteristici convolute.
+
+
+\begin{center}
+
+  \includegraphics[scale=0.4]{convolutie}
+  
+\end{center}
+
+\> Urmatorul pas este calcularea dimensiunilor hărții de caracteristici.
+
+\> Dimensiunea hărții caracteristicilor de ieșire depinde de 3 parametri:
+
+\begin{itemize}
+\item dimensiunea filtrului
+\item "pasul" (stride-ul)
+\item conturul (padding-ul cu zero-uri)
+\end{itemize}
+
+\newpage
+
+\subsubsection{Functia de activare}
+
+\> Functia de activare reprezinta o funcție matematică care determină rezultatul rețelei neuronale.
+Această funcție este angajată pentru fiecare neuron din rețea și decide ce neuron trebuie să fie activat sau nu în funcție de datele de intrare relevante pentru predicția modelului.
+
+\> Un exemplu de astfel de functie este functia unitate liniară rectificată (ReLU).
+
+\> Scopul utilizării unei funcții ReLU este de a crește neliniaritatea în imaginile noastre.
+Această funcție este utilizată deoarece, în mod natural, toate imaginile sunt neliniare.
+ReLU are rolul de a sparge și mai mult liniaritatea pentru a compensa liniaritatea pe care am putea-o impune unei imagini atunci când o supunem operației de convoluție.
+
+\subsubsection{Stratul de grupare / punere in comun}
+
+\> Stratul de grupare este utilizat pentru a reduce treptat dimensiunea spațială a reprezentării pentru a diminua numărul de parametri și de calcule în rețea.
+De asemenea, ne ajută să prevenim supraadaptarea. Sunt disponibile mai multe tipuri de metode de grupare.
+
+\> Cele mai importante si folosite metode de punere in comun sunt:
+
+\begin{itemize}
+\item Gruparea maximă: Este un proces de convoluție în care nucleul sau detectorul de caracteristici extrage valoarea maximă a zonei
+\item Gruparea minima: În mod similar, într-un proces de grupare minima, nucleul extrage valoarea minimă a zonei
+\item Gruparea medie: Analog, in gruparea medie, nucleul extrage valoarea medie a zonei
+\end{itemize}
+
+\subsubsection{Stratul complet conectat}
+
+\> După finalizarea tuturor pașilor descrisi anterior, este necesar să se atașeze un strat complet conectat. Aceste este responsabil de preluarea informațiilor de ieșire din rețelele convoluționale.
+Atunci când atașăm un strat complet conectat la sfârșitul rețelei, rezultă un vector N-dimensional, unde N reprezintă numărul de clase din care modelul poate selecta clasa dorită.
+
+\> Pentru a calcula numărul total de parametri se poate folosi formula "(n*m*l+1)*k", unde n*m reprezintă dimensiunea filtrului, k reprezintă maparile caracteristicilor de ieșire și l reprezintă maparile caracteristicilor de intrare.
+
+\> In ultimul pas, vom aplica o funcție softmax pentru a converti ieșirile în valori de probabilitate pentru fiecare clasă, iar apoi, vom alege valoarea care are o probabilitate maximă.
+
+\newpage
+
+\subsection{Flux de lucru pentru a rezolva problema de clasificare a imaginilor folosind retele neuronale convoluționale}
+
+\> Clasificarea imaginilor reprezinta sarcina de clasificare și etichetare a grupurilor de pixeli sau vectori dintr-o imagine pe baza unor reguli specifice.
+
+\> Pentru a rezolva aceasta problema de clasificare folosind retele neuronale convoluționale, se poate urma fluxul de lucru ilustrat mai jos:
+
+\begin{itemize}
+
+  \item O rețea CNN primeste o imagine ca intrare
+  \item Sunt aplicate diferite nuclee pentru a crea o mapare a caracteristicilor
+  \item Se foloseste funcția de activare (ex. ReLU) pentru a crește neliniaritatea imaginilor noastre
+  \item Intervine stratul de grupare pentru fiecare mapare de caracteristici rezultata anterior pentru a-i reduce dimensiunea
+  \item Se aplatizeaza imaginile grupate într-un singur vector trimis catre stratul conectat
+  \item În continuare, este folosita functia softmax pentru a produce valorile de probabilitate ale fiecărei clase si se alege probabilitatea cu valorile maxime
+  \item Se antreneaza prin propagare înainte și propagare înapoi pentru mai multe "epoci" pana cand, intr-un caz ideal reteaua ajunge la o capacitate de clasificare favorabila
+
+\end{itemize}
+
+
+\begin{center}
+
+  \includegraphics[scale=0.2]{proces-clasificare-cnn}
+  
+\end{center}
+
+\newpage
+
 \section{Exemplu de aplicatie}
 
 \> Exemplul de aplicatie folosit pentru a demonstra cateva dintre tehnicile de preprocesare, recunoastere si clasificare
@@ -748,6 +875,7 @@ urmand ca expresiile sa intervina drept factor calitativ (descriptori de 'forma'
   \bibitem[9]{key9} \href{https://www.researchgate.net/profile/Gaurav-Gupta-53/publication/325681876_Image_Filtering_Algorithms_and_Techniques_A_Review/links/5b1e1ab0aca272021cf585c9/Image-Filtering-Algorithms-and-Techniques-A-Review.pdf}{researchgate.net/profile/Gaurav-Gupta-53/publication/Image-Filtering-Algorithms-and-Techniques-A-Review.pdf}
   \bibitem[10]{key10} \href{https://books.google.ro/books?id=xeWpCAAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false}{books.google.ro/Theo-Pavlidis-Algorithms-for-Graphics-and-Image-Processing}
   \bibitem[11]{key11} \href{https://homepages.inf.ed.ac.uk/rbf/HIPR2/histgram.htm}{homepages.inf.ed.ac.uk/rbf/HIPR2/histgram}
+  \bibitem[12]{key12} \href{https://www.dataspoof.info/post/how-to-perform-image-classification-using-convolutional-neural-network/}{dataspoof.info/post/how-to-perform-image-classification-using-convolutional-neural-network}
 \end{thebibliography} 
 
 \end{document}
