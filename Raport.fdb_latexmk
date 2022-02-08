@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1644322403 "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" "Raport.pdf" "Raport" 1644322406
-  "C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1644153073 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1644332423 "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" "Raport.pdf" "Raport" 1644332425
+  "C:/Users/vlada/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1644332373 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0600.pk" 1644321941 14788 36f3bcf0c003e497fb740fb42c80886d ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1643541361 22504 9bade0320142dee9ceeee01c6e668122 ""
   "C:/Users/vlada/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1643541362 25420 ce20f9f388889339f00f526c33cb4312 ""
@@ -207,10 +207,10 @@
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1641300864 44107 6f2f3317a642c086712536af0abfcbd8 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/vlada/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "Raport.aux" 1644322406 5454 d45c91fdb08db8a4c7e9840f8474aa8e "pdflatex"
-  "Raport.out" 1644322406 5768 d7a26686c51b25b6a05ff8805313f1c2 "pdflatex"
-  "Raport.tex" 1644322399 39894 8ded71ca2a4ddf3eeb68484be11269be ""
-  "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" 1644322399 39894 8ded71ca2a4ddf3eeb68484be11269be ""
+  "Raport.aux" 1644332425 5454 d45c91fdb08db8a4c7e9840f8474aa8e "pdflatex"
+  "Raport.out" 1644332425 5768 d7a26686c51b25b6a05ff8805313f1c2 "pdflatex"
+  "Raport.tex" 1644332419 39894 8ded71ca2a4ddf3eeb68484be11269be ""
+  "c:/Users/vlada/OneDrive/Documents/OCL/ocl raport cercetare/Raport.tex" 1644332419 39894 8ded71ca2a4ddf3eeb68484be11269be ""
   "images//canny.png" 1644083092 19701 d839bbb55463fb1692e1f5c757e06d19 ""
   "images//componente.png" 1643552790 28201 43074b29b2450fa44eaebedc115c8220 ""
   "images//convolutie.png" 1644320874 60235 01a59559a660ff76cda6e96d813015a4 ""
